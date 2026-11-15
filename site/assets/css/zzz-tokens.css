@@ -193,3 +193,57 @@ a { color: inherit; }
 [data-zzz-accent="amber"]    { --zzz-accent: var(--zzz-amber);    --zzz-accent-ink: var(--zzz-black); }
 [data-zzz-accent="magenta"]  { --zzz-accent: var(--zzz-pink);     --zzz-accent-ink: var(--zzz-black); }
 [data-zzz-accent="violet"]   { --zzz-accent: var(--zzz-violet);   --zzz-accent-ink: var(--zzz-black); }
+
+/* ==========================================================================
+   站点中性色阶与透明叠色（仅此文件允许裸色值）
+   ========================================================================== */
+:root {
+  --zzz-n-00: #0a0a0a;
+  --zzz-n-05: #111111;
+  --zzz-n-10: #141414;
+  --zzz-n-15: #1d1d1d;
+  --zzz-n-20: #222222;
+  --zzz-n-25: #252525;
+  --zzz-n-30: #2b2b2b;
+  --zzz-n-35: #333333;
+  --zzz-n-40: #3a3a3a;
+  --zzz-n-45: #444444;
+  --zzz-n-50: #4a4a4a;
+  --zzz-n-55: #555451;
+  --zzz-n-60: #5e5e5e;
+  --zzz-n-65: #6e6e6e;
+  --zzz-n-70: #7d7d7d;
+  --zzz-n-75: #8a8a8a;
+  --zzz-n-80: #9a9a9a;
+  --zzz-n-85: #a8a8a8;
+  --zzz-n-90: #b4b4b4;
+  --zzz-n-95: #cfcfcf;
+  --zzz-n-97: #d8d8d8;
+  --zzz-n-98: #e4e2dc;
+  --zzz-n-99: #e7e5df;
+  --zzz-n-100: #f2f2f2;
+  --zzz-n-101: #f6f4ef;
+
+  --zzz-a-black-026: rgba(0, 0, 0, 0.026);
+  --zzz-a-black-4: rgba(0, 0, 0, 0.4);
+  --zzz-a-black-5: rgba(0, 0, 0, 0.5);
+  --zzz-a-black-68: rgba(0, 0, 0, 0.68);
+  --zzz-a-black-70: rgba(0, 0, 0, 0.7);
+  --zzz-a-black-8: rgba(0, 0, 0, 0.8);
+  --zzz-a-black-86: rgba(0, 0, 0, 0.86);
+  --zzz-a-black-92: rgba(0, 0, 0, 0.92);
+  --zzz-a-black-22: rgba(0, 0, 0, 0.22);
+  --zzz-a-white-03: rgba(255, 255, 255, 0.03);
+  --zzz-a-white-045: rgba(255, 255, 255, 0.045);
+  --zzz-a-paper-09: rgba(239, 239, 239, 0.09);
+  --zzz-a-paper-16: rgba(239, 239, 239, 0.16);
+  --zzz-a-paper-28: rgba(239, 239, 239, 0.28);
+  --zzz-a-paper-55: rgba(239, 239, 239, 0.55);
+  --zzz-a-paper-62: rgba(239, 239, 239, 0.62);
+  --zzz-a-orange-02: rgba(226, 58, 30, 0.02);
+  --zzz-a-orange-035: rgba(226, 58, 30, 0.035);
+  --zzz-a-orange-14: rgba(226, 58, 30, 0.14);
+  --zzz-a-orange-22: rgba(226, 58, 30, 0.22);
+  --zzz-a-orange-55: rgba(226, 58, 30, 0.55);
+  --zzz-a-lime-05: rgba(216, 250, 0, 0.05);
+}

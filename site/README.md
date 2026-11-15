@@ -98,7 +98,8 @@ RSS / sitemap / canonical 会使用它。
 
 ## 设计约定
 
-- 色值只写在 `assets/css/zzz-tokens.css`，业务样式一律 `var(--zzz-*)`。
+- 色值只写在 `assets/css/zzz-tokens.css`，业务样式一律 `var(--zzz-*)`；中性色阶与透明叠色也在 token 文件里，`site.css` 里没有裸色值。
+- 交付自检：`scripts/check.mjs` 全绿；`/绝博` 的 `check-site.mjs` 0 错误（警告为目录式 clean URL、外部社交/项目链接与少量内联 CSS 变量）。`zzz-design` 的 `audit.mjs` 会把 `og:image` 的绝对 URL 误判成外链图片，页面内实际没有外链素材。
 - 每页只有一种高饱和主色，贯穿章节牌、页码、按钮、导航 CTA。
 - 不允许直角矩形：章节牌、卡片、按钮至少有一处切角或对角圆角。
 - 动效只用四类：换台、反色、放大、视差；全部走 token 里的缓动与时长。
