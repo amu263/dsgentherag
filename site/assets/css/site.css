@@ -1066,6 +1066,7 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 2
   cursor: pointer;
   transition: height 400ms var(--zzz-ease-cut), background-color 400ms linear, opacity var(--zzz-dur-fast);
 }
+.pager__dot::before { content: ""; position: absolute; inset: -14px; }
 .pager__dot span {
   position: absolute;
   right: 18px;
@@ -1338,7 +1339,7 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 2
   max-width: 1150px;
   margin: 44px auto 0;
 }
-.prose { min-width: 0; color: #555451; font-size: 16px; line-height: 1.92; }
+.prose { min-width: 0; color: #555451; font-size: 16px; line-height: 1.92; overflow-wrap: break-word; }
 .prose > *:first-child { margin-top: 0; }
 .prose__lead { margin: 0 0 30px; padding-left: 16px; border-left: 4px solid var(--zzz-accent); color: #3c3c3a; font-size: 17px; line-height: 1.85; }
 .prose p { margin: 0 0 22px; }
@@ -1366,6 +1367,8 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 2
   font-family: var(--zzz-font-mono);
   font-size: 13px;
   color: #232323;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .prose hr { margin: 36px 0; border: 0; border-top: 1px solid var(--c-line); }
 .prose-fig { margin: 30px 0; }
