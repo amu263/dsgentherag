@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40">
+  <!-- 胶带 · 120x40 横向 repeat-x · 上下缘撕口首尾对齐 -->
+  <path fill="#fff" fill-opacity=".55" d="M0 8 10 4 20 9 30 5 40 10 50 4 60 8 70 5 80 10 90 5 100 9 110 5 120 8V32L110 36 100 31 90 35 80 30 70 36 60 32 50 35 40 30 30 35 20 31 10 35 0 32Z"/>
+  <path fill="none" stroke="#000" stroke-opacity=".12" d="M0 20 120 18"/>
+</svg>
