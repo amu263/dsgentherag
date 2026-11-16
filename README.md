@@ -32,6 +32,10 @@ npm run build
 npm start                       # 默认 3210 端口
 ```
 
+### Windows / WSL 访问
+
+如果 DSH 跑在 WSL2，Windows 浏览器请打开 **http://localhost:3210**（或 `http://<WSL 的 eth0 IP>:3210`，例如 `http://172.19.86.19:3210`）。Windows 侧的 `127.0.0.1` 指向 Windows 自己，Next 启动日志里的 `10.255.255.254` 是 WSL 的 DNS 地址，都不能从 Windows 浏览器访问本机服务。手机访问需要另开临时公网隧道。
+
 ## 管理员入口
 
 - 地址：`/admin`（站内导航不会出现入口，登录后才在顶栏显示「控制台 / 入库」）
