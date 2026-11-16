@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <!-- 双箭头条 · 24x24 平铺 · 指右，可 rotate(180deg) 指左 -->
+  <g fill="none" stroke="#000" stroke-opacity=".8" stroke-width="3" stroke-linecap="square">
+    <path d="M1 4 9 12 1 20"/>
+    <path d="M11 4 19 12 11 20"/>
+  </g>
+</svg>

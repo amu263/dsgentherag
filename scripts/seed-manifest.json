@@ -1,0 +1,2851 @@
+{
+ "works": [
+  {
+   "slug": "san-forest",
+   "title": "森之守护者",
+   "modelId": "pony",
+   "modelLabel": "Pony Diffusion V6 XL",
+   "tags": [
+    "fantasy",
+    "forest",
+    "full-body",
+    "girl",
+    "green-tone"
+   ],
+   "characters": [
+    "san"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 12097475,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/936f0e8d-c76f-4aa7-8b5c-37349f9b7da7/original=true/936f0e8d-c76f-4aa7-8b5c-37349f9b7da7.jpeg",
+   "width": 1520,
+   "height": 1952,
+   "prompt": "score_9, score_8_up, score_7_up,  san, 1girl, full body, squatting, solo, short hair, brown hair, gray eyes, headband, face paint, earrings, white sleeveless top, navy under dress, arm cuffs, fur headdress, fur cape, light-skinned female, female focus, looking at viewer, smiling, forest, (blush:1.1)  <lora:pony/twilight_style:0.8> concept art, realistic, <lora:pony/expressiveh:0.8> expressiveh, <lora:pony/kenva:0.8> knva, <lora:pony/san_pony_v4> <lora:sdxl/sinfully_stylish_sdxl>",
+   "negativePrompt": "score_6, score_5, score_4",
+   "params": {
+    "steps": 25,
+    "sampler": "Euler a Karras",
+    "cfg": 7,
+    "seed": "3269595310",
+    "size": "896x1152"
+   },
+   "author": "Stellaaa",
+   "authorUrl": "https://civitai.com/user/Stellaaa",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/12097475",
+   "createdAt": "2024-05-10T21:33:39.009Z",
+   "stats": {
+    "views": 267735,
+    "likes": 17079,
+    "favorites": 7347,
+    "downloads": 2197
+   },
+   "modelShort": "Pony V6",
+   "colorFamily": "green"
+  },
+  {
+   "slug": "red-priestess",
+   "title": "赤色祭司",
+   "modelId": "pony",
+   "modelLabel": "Pony Diffusion V6 XL",
+   "tags": [
+    "fantasy",
+    "closeup",
+    "girl",
+    "red-tone",
+    "high-contrast"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 16382509,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81f8e626-a822-4815-b8be-361ff65b0d88/original=true/81f8e626-a822-4815-b8be-361ff65b0d88.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "score_9, score_8_up, score_7_up, BREAK,\n1girl, portrait, beautiful, tiefling shaman, white hair, (long hair:1.3), side bangs, horns, barbarian, gladiator, war paint, tribal markings, long tail, blue skin, pink eyes, glowing eyes, (smug:0.85), (big breast:1.25), dramatic lights\n<lora:Fant5yP0ny:0.6> <lora:fantasy_world_pony:0.9> <lora:Cherry-Gig:0.55>",
+   "negativePrompt": "score_6, score_5, score_4, censored, furry, child, kid, chibi, 3d, aidxlv05_neg, signature, watermark, subtitles",
+   "params": {
+    "steps": 40,
+    "sampler": "Euler a",
+    "cfg": 4.5,
+    "seed": "3530067213",
+    "size": "832x1216",
+    "clipSkip": 2
+   },
+   "author": "PaperbackLion",
+   "authorUrl": "https://civitai.com/user/PaperbackLion",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/16382509",
+   "createdAt": "2024-06-19T18:28:27.557Z",
+   "stats": {
+    "views": 141655,
+    "likes": 14573,
+    "favorites": 4540,
+    "downloads": 2636
+   },
+   "modelShort": "Pony V6",
+   "colorFamily": "red"
+  },
+  {
+   "slug": "white-knight",
+   "title": "白骑士",
+   "modelId": "pony",
+   "modelLabel": "Pony Diffusion V6 XL",
+   "tags": [
+    "knight",
+    "forest",
+    "half-body",
+    "girl",
+    "backlight"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 14971955,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c53c6b0f-ab0f-4970-8911-b9bfd66e6f21/original=true/c53c6b0f-ab0f-4970-8911-b9bfd66e6f21.jpeg",
+   "width": 768,
+   "height": 1280,
+   "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, beautiful, white hair, long hair, bangs, fair skin, big breasts, leather armor, sword, forest, dappled sunlight, upper body, looking at viewer",
+   "negativePrompt": "score_4, score_3, score_2, score_1, SDXL_general_unaestheticXL_Alb2, SDXL_semireal_unaestheticXL2v10",
+   "params": {
+    "steps": 25,
+    "sampler": "DPM++ SDE Karras",
+    "cfg": 7,
+    "seed": "2261475806",
+    "size": "768x1280",
+    "clipSkip": 2
+   },
+   "author": "Imperativ",
+   "authorUrl": "https://civitai.com/user/Imperativ",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/14971955",
+   "createdAt": "2024-06-07T21:36:24.088Z",
+   "stats": {
+    "views": 122793,
+    "likes": 12713,
+    "favorites": 3991,
+    "downloads": 1663
+   },
+   "modelShort": "Pony V6",
+   "colorFamily": "green"
+  },
+  {
+   "slug": "bloom",
+   "title": "花期",
+   "modelId": "pony",
+   "modelLabel": "Pony Diffusion V6 XL",
+   "tags": [
+    "flower",
+    "girl",
+    "warm-tone",
+    "closeup",
+    "anime"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 16641559,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebebea37-2512-47b9-a171-b79f5fc5b91f/original=true/ebebea37-2512-47b9-a171-b79f5fc5b91f.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "<lora:gr33nXLP:1> gr33n, solo, 1girl, long hair, plant, flower, score_9, score_8_up, score_7_up, score_6_up,",
+   "negativePrompt": "watermark, signature, artist name, (3d), muscular, cum, ugly, monochrome,",
+   "params": {
+    "steps": 30,
+    "sampler": "Euler a",
+    "cfg": 7,
+    "seed": "2454726382",
+    "size": "832x1216",
+    "clipSkip": 2
+   },
+   "author": "4ndr3w",
+   "authorUrl": "https://civitai.com/user/4ndr3w",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/16641559",
+   "createdAt": "2024-06-21T18:42:30.727Z",
+   "stats": {
+    "views": 101691,
+    "likes": 10709,
+    "favorites": 3477,
+    "downloads": 1571
+   },
+   "modelShort": "Pony V6",
+   "colorFamily": "orange"
+  },
+  {
+   "slug": "moss-ninja",
+   "title": "苔蔓忍者",
+   "modelId": "pony",
+   "modelLabel": "Pony Diffusion V6 XL",
+   "tags": [
+    "forest",
+    "full-body",
+    "warrior",
+    "girl",
+    "green-tone"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 54318776,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/680922a8-d5bd-4cd7-836d-eb6ae1042b8e/original=true/680922a8-d5bd-4cd7-836d-eb6ae1042b8e.jpeg",
+   "width": 1248,
+   "height": 1824,
+   "prompt": "score_9, score_8_up, score_7_up, \r\nmonster girl, llamia, slit pupils, green eyes, horns, kunoichi, long hair, action pose, forest,",
+   "negativePrompt": "score_6, score_5, score_4, text, pony, furry, child, kid, monochrome background,",
+   "params": {
+    "steps": 20,
+    "sampler": "DPM++ 2M Karras",
+    "cfg": 7,
+    "seed": "1197238889",
+    "size": "1248x1824"
+   },
+   "author": "Elioplasma",
+   "authorUrl": "https://civitai.com/user/Elioplasma",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/54318776",
+   "createdAt": "2025-01-28T04:25:44.985Z",
+   "stats": {
+    "views": 128438,
+    "likes": 9791,
+    "favorites": 4067,
+    "downloads": 1640
+   },
+   "modelShort": "Pony V6",
+   "colorFamily": "green"
+  },
+  {
+   "slug": "two-face",
+   "title": "双面涂鸦",
+   "modelId": "flux",
+   "modelLabel": "FLUX.1",
+   "tags": [
+    "closeup",
+    "surreal",
+    "high-contrast",
+    "blue-tone",
+    "concept"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 2,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 64399178,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db5208dd-da08-40c7-8ed4-bd67508740ac/original=true/db5208dd-da08-40c7-8ed4-bd67508740ac.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "A close-up of a face adorned with intricate black and blue patterns. The left side of the face is predominantly yellow, with symbols and doodles, while the right side is dark, featuring mechanical elements. The eye on the left is a striking shade of yellow, contrasting sharply with the surrounding patterns. The face is partially covered by a hooded garment, cinematic_1940s cinematic_octane",
+   "negativePrompt": "",
+   "params": {
+    "steps": 30,
+    "sampler": "Undefined",
+    "cfg": 2.5,
+    "seed": "588815599",
+    "size": "832x1216",
+    "clipSkip": 2
+   },
+   "author": "L10n_H34r7",
+   "authorUrl": "https://civitai.com/user/L10n_H34r7",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/64399178",
+   "createdAt": "2025-04-11T19:56:34.648Z",
+   "stats": {
+    "views": 155469,
+    "likes": 16544,
+    "favorites": 5403,
+    "downloads": 2817
+   },
+   "modelShort": "FLUX.1",
+   "colorFamily": "blue"
+  },
+  {
+   "slug": "moon-branch",
+   "title": "月下银枝",
+   "modelId": "flux",
+   "modelLabel": "FLUX.1",
+   "tags": [
+    "ink",
+    "garden",
+    "moonlight",
+    "fantasy",
+    "vertical"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 3,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 65653762,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2cf2d81-92de-4b3b-8fe0-492ae1044d34/original=true/d2cf2d81-92de-4b3b-8fe0-492ae1044d34.jpeg",
+   "width": 1920,
+   "height": 2560,
+   "prompt": "famous artwork, alcohol ink and watercolor on traditional washi paper, in a secluded, moonlit garden deep within an ancient forest and bathed in silver moonlight, a mythical silver-furred kitsune fox spirit sits regally upon a quaint wooden bridge arching over a tranquil koi pond, its presence both enchanting and enigmatic, its nine resplendent fox tails unfurl in a grand, mesmerizing display, fanning out behind it like an ethereal peacock wheel, each tail flowing like silk, shimmering with delicate strands of celestial light, and tipped with a faint, ghostly luminescence, its magical golden eyes glow intensely, casting an enchanting aura as they pierce the night. the scene is dreamlike, filled with cascading wisteria, intricately detailed herbs and wildflowers, and delicate misty fog drifting through the air, a few glowing will-oâ-wisps float gently around the kitsune, illuminating the moss-covered stones and the mirror-like koi pond beneath with their soft, mystical glow. the kitsuneâs tails dominate the composition, arranged in an elegant, symmetrical arc, their delicate, flowing texture highlighted by the contrast of moonlight and shadow, the atmosphere is surreal and enchanting, with a color palette of mint green, teal, deep indigo, ethereal blues, and soft lavender, golden accents from the kitsuneâs piercing gaze and the floating wisps create a striking contrast against the cool, dreamy hues, petals from the wisteria drift lazily through the air, caught in a soft breeze, their descent mirrored in the rippling pond, where the kitsuneâs spectral reflection appears even more otherworldly. a cinematic, painterly shot, slightly elevated angle, capturing the entire mystical landscape in breathtaking detail, intricate hand-painted textures and masterful use of light and shadow create a delicate balance between whimsy and haunting beauty, atmospheric fog softens the edges of the scenery, lending an otherworldly, timeless quality, the entire scene is rendered in handcrafted alcohol ink and watercolor, with soft, flowing brushstrokes, infused with a sense of ancient magic and mythical legends. inspired by studio ghibli, brian froud, and kay nielsen, accurate reflections, ovg, studio ghibli dark fairytale, <lora:style-dark_ghibli-flux-by_arsmachina:0.8> <lora:faetastic_details-flux-by_faeia:0.64>",
+   "negativePrompt": "",
+   "params": {
+    "steps": 60,
+    "sampler": "LMS",
+    "cfg": 1,
+    "seed": "88888888",
+    "size": "960x1280"
+   },
+   "author": "OneViolentGentleman",
+   "authorUrl": "https://civitai.com/user/OneViolentGentleman",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/65653762",
+   "createdAt": "2025-03-31T16:43:29.067Z",
+   "stats": {
+    "views": 131566,
+    "likes": 13329,
+    "favorites": 5492,
+    "downloads": 2690
+   },
+   "modelShort": "FLUX.1",
+   "colorFamily": "mono"
+  },
+  {
+   "slug": "red-circle",
+   "title": "赤色回线",
+   "modelId": "flux",
+   "modelLabel": "FLUX.1",
+   "tags": [
+    "cyberpunk",
+    "kimono",
+    "retro-future",
+    "girl",
+    "red-tone",
+    "neon"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 27763004,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e0e11f20-d392-4703-a708-600828585251/original=true/e0e11f20-d392-4703-a708-600828585251.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "The image is a digital illustration in a detailed, vibrant, high contrast, semi-realistic art style with 90s retro futuristic anime elements without noise or comic halftone effect. The subject is a woman with dark shoulder length hair and green eyes. Her face showing a serious expression. The theme of her body is a vivid red. Her body is slender and athletic. Her body is cyborg with mechanical parts integrated into it. Her arms and chest are fully mechanical. she is wearing a red futuristic, cybernetic, high-tech suit with a vivid red color, reminiscent of military or space gear. the background features a greenish, (dark), abandined, industrial setting with metallic pipes and machinery, creating a sense of a dystopian or sci-fi environment. The compostition and the poses are dynamic. The composition is dominated by cool tones, with a muted, slightly gritty texture that enhances the gritty, futuristic atmosphere.",
+   "negativePrompt": "",
+   "params": {
+    "steps": 35,
+    "sampler": "Euler",
+    "cfg": 3.5,
+    "seed": "526419013298427",
+    "size": "1024x1536"
+   },
+   "author": "LizardMan245",
+   "authorUrl": "https://civitai.com/user/LizardMan245",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/27763004",
+   "createdAt": "2024-09-04T19:05:41.445Z",
+   "stats": {
+    "views": 149900,
+    "likes": 11395,
+    "favorites": 3846,
+    "downloads": 1500
+   },
+   "modelShort": "FLUX.1",
+   "colorFamily": "red"
+  },
+  {
+   "slug": "ignition",
+   "title": "燃点",
+   "modelId": "flux",
+   "modelLabel": "FLUX.1",
+   "tags": [
+    "warrior",
+    "fire",
+    "fantasy",
+    "half-body",
+    "girl"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 28746697,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac371696-874f-4bbb-a6ed-5f7a5bd3ae62/original=true/ac371696-874f-4bbb-a6ed-5f7a5bd3ae62.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "intensely focused Viking woman warrior with curly hair hurling a burning meteorite from her hand towards the viewer, the glowing sphere leaves the woman's body getting closer to the viewer leaving a trail of smoke and sparks, intense battlegrounds in snowy conditions, army banners, swords and shields on the ground <lora:Dever_Flux_Enhancer:0.5>",
+   "negativePrompt": "",
+   "params": {
+    "steps": 20,
+    "sampler": "Euler",
+    "cfg": 1,
+    "seed": "4256041652",
+    "size": "832x1216"
+   },
+   "author": "Dever",
+   "authorUrl": "https://civitai.com/user/Dever",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/28746697",
+   "createdAt": "2024-09-10T17:37:01.830Z",
+   "stats": {
+    "views": 104563,
+    "likes": 11039,
+    "favorites": 4678,
+    "downloads": 1982
+   },
+   "modelShort": "FLUX.1",
+   "colorFamily": "orange"
+  },
+  {
+   "slug": "paper-samurai",
+   "title": "纸上武士",
+   "modelId": "flux",
+   "modelLabel": "FLUX.1",
+   "tags": [
+    "ink",
+    "warrior",
+    "full-body",
+    "warm-tone",
+    "concept"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 64467372,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b977657-c60e-4a6d-9ffa-b81d3e90fa37/original=true/0b977657-c60e-4a6d-9ffa-b81d3e90fa37.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "in the style of ck-mgs, nistyle, Special Ink-drawing mode, intricate linework with expressive contrasts, Mh1$AgThS2, Inkplash art on rice paper, sepia, henna , Silhouette Art, magnificent, inksplash closeup portrait of stunning japanese female sc-fi soldier, helmet, mirrored visor reflecting jungle environment",
+   "negativePrompt": "",
+   "params": {
+    "steps": 25,
+    "sampler": "Undefined",
+    "cfg": 3.5,
+    "seed": "305440652",
+    "size": "832x1216",
+    "clipSkip": 2
+   },
+   "author": "Stu42",
+   "authorUrl": "https://civitai.com/user/Stu42",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/64467372",
+   "createdAt": "2025-03-19T19:01:00.000Z",
+   "stats": {
+    "views": 131574,
+    "likes": 10919,
+    "favorites": 4292,
+    "downloads": 2520
+   },
+   "modelShort": "FLUX.1",
+   "colorFamily": "earth"
+  },
+  {
+   "slug": "spring-night",
+   "title": "春夜将明",
+   "modelId": "flux",
+   "modelLabel": "FLUX.1",
+   "tags": [
+    "landscape",
+    "flower",
+    "garden",
+    "soft-light",
+    "cool-tone"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 10556898,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d57e4d81-eac9-40ed-9054-1d3b82a24f49/original=true/d57e4d81-eac9-40ed-9054-1d3b82a24f49.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "detailed background,( Calm spring night landscape), amongst lush greenery, beautiful view, creeping phlox in full bloom, creeping phlox, early morning, sunrise sky, beautiful clouds, dappled sunlight, outdoor seating, one lamp, Tranquil Lake, Boat on a Lake, depth of field, masterpiece, best quality, ultra-detailed, very aesthetic, illustration, perfect composition, intricate details, absurdres, moody lighting, wisps of light, no humans,",
+   "negativePrompt": "extra digit, fewer digits, cropped, worst quality, low quality, normal quality, very displeasing,  blurry, artist name,",
+   "params": {
+    "steps": 42,
+    "sampler": "DPM++ 2M",
+    "cfg": 7,
+    "seed": "958517608",
+    "size": "832x1216",
+    "clipSkip": 2
+   },
+   "author": "SomeT",
+   "authorUrl": "https://civitai.com/user/SomeT",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/10556898",
+   "createdAt": "2024-04-23T14:50:05.636Z",
+   "stats": {
+    "views": 133239,
+    "likes": 11905,
+    "favorites": 3999,
+    "downloads": 2542
+   },
+   "modelShort": "FLUX.1",
+   "colorFamily": "green"
+  },
+  {
+   "slug": "dark-room",
+   "title": "暗室来客",
+   "modelId": "sdxl",
+   "modelLabel": "SDXL 1.0",
+   "tags": [
+    "closeup",
+    "girl",
+    "dark-tone",
+    "flash",
+    "realistic"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 11871535,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd00de1d-ec6a-4848-bc8c-01d7a8437a5d/original=true/dd00de1d-ec6a-4848-bc8c-01d7a8437a5d.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "very dark focused flash photo, amazing quality, masterpiece, best quality, hyper detailed, ultra detailed, UHD, perfect anatomy, portrait, dof, hyper-realism, majestic, awesome, inspiring,Capture the thrilling showdown between the ancient mummy and the colossal sand boss in an epic battle amidst swirling dust and desert sands. Embrace the action and chaos as these formidable forces clash in the heart of the dunes. cinematic composition, soft shadows, national geographic style",
+   "negativePrompt": "easynegative, bad proportions, low resolution, bad, ugly, terrible, painting, 3d, render, comic, anime, manga, unrealistic, flat, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.3), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, human,",
+   "params": {
+    "steps": 37,
+    "sampler": "DPM++ 2M",
+    "cfg": 4.5,
+    "seed": "1942001206",
+    "size": "832x1216",
+    "clipSkip": 2
+   },
+   "author": "saper7474377",
+   "authorUrl": "https://civitai.com/user/saper7474377",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/11871535",
+   "createdAt": "2024-05-08T11:26:03.864Z",
+   "stats": {
+    "views": 198716,
+    "likes": 15197,
+    "favorites": 6063,
+    "downloads": 2450
+   },
+   "modelShort": "SDXL",
+   "colorFamily": "earth"
+  },
+  {
+   "slug": "embers",
+   "title": "余温",
+   "modelId": "sdxl",
+   "modelLabel": "SDXL 1.0",
+   "tags": [
+    "closeup",
+    "girl",
+    "sweater",
+    "warm-tone",
+    "realistic"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 9078035,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab2daea7-2269-436b-acad-e6c73ee8af83/original=true/ab2daea7-2269-436b-acad-e6c73ee8af83.jpeg",
+   "width": 720,
+   "height": 1280,
+   "prompt": "(1girl, solo, masterpiece, 8k, HDR,), ginger girl, \ncharacter concept art of a beautiful woman leaning over, red sweater falling off her shoulder, cleavage, extremely sexy, seductive, long hair, luscious lips, comic book art, rough colored sketch, \n(small breasts, big hips, looking at the viewer),\n(simple background, white background)",
+   "negativePrompt": "watermark, ugly, mutation, lowres, low quality, extra limbs, text, signature, artist name, bad anatomy, poorly drawn, malformed, deformed, blurry, out of focus, noise, dust",
+   "params": {
+    "steps": 40,
+    "sampler": "DPM++ 2M",
+    "cfg": 7,
+    "seed": "4033382240",
+    "size": "360x640"
+   },
+   "author": "AkiAICreator",
+   "authorUrl": "https://civitai.com/user/AkiAICreator",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/9078035",
+   "createdAt": "2024-04-03T15:00:16.609Z",
+   "stats": {
+    "views": 129223,
+    "likes": 11697,
+    "favorites": 3785,
+    "downloads": 1990
+   },
+   "modelShort": "SDXL",
+   "colorFamily": "red"
+  },
+  {
+   "slug": "shard-blade",
+   "title": "碎光之刃",
+   "modelId": "sdxl",
+   "modelLabel": "SDXL 1.0",
+   "tags": [
+    "knight",
+    "full-body",
+    "dark-tone",
+    "fantasy",
+    "high-contrast"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 13073993,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb38a219-28f9-467d-b1e5-e51c650cbdd4/original=true/fb38a219-28f9-467d-b1e5-e51c650cbdd4.jpeg",
+   "width": 1792,
+   "height": 2304,
+   "prompt": "concept art hidden face, mysterious, hooded, full body, dark enigmatic warrior, standing, storm of falling shards, glowing ethereal giant heavy thick sword in hand, warriorâs intricate armor, tattered cloak that billows in the wind, atmosphere is charged with an otherworldly energy, fantasy realism, dramatic lighting, detailed textures to bring the scene to life, <lora:zavy-cntrst-sdxl:1.5>, <lora:- SDXL - vanta-black_contrast_V3.0:0.4>, <lora:glowneon_xl_v1:0.4> . digital artwork, illustrative, painterly, matte painting, highly detailed",
+   "negativePrompt": "photo, photorealistic, realism, ugly",
+   "params": {
+    "steps": 30,
+    "sampler": "DPM++ 2M Karras",
+    "cfg": 5,
+    "seed": "2667752565",
+    "size": "896x1152"
+   },
+   "author": "DreamCk",
+   "authorUrl": "https://civitai.com/user/DreamCk",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/13073993",
+   "createdAt": "2024-05-20T17:59:01.428Z",
+   "stats": {
+    "views": 118743,
+    "likes": 10351,
+    "favorites": 3978,
+    "downloads": 2437
+   },
+   "modelShort": "SDXL",
+   "colorFamily": "blue"
+  },
+  {
+   "slug": "moon-knight",
+   "title": "月白骑士",
+   "modelId": "sdxl",
+   "modelLabel": "SDXL 1.0",
+   "tags": [
+    "knight",
+    "robe",
+    "moonlight",
+    "mono",
+    "half-body"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 15565887,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3723815a-6877-4f9b-a485-4680f9e360b1/original=true/3723815a-6877-4f9b-a485-4680f9e360b1.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "A closeup of fantastical image of a moon knight, clad in flowing, flowing robes, wielding an ornate, ornate blade. Their eyes are filled with power and determination, as they wield the sword in a fluid, dynamic motion. The moon's reflection highlights their magical power",
+   "negativePrompt": "bad proportions, low resolution, bad, ugly, terrible, , pink skin creepy, meat skin,comic, anime, manga, unrealistic, flat, FastNegativeV2, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.6), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, (malformed hand:1.2), (disassembled lightsaber handle:1.5)",
+   "params": {
+    "steps": 40,
+    "sampler": "DPM++ 2M Karras",
+    "cfg": 3.5,
+    "seed": "23241252",
+    "size": "832x1216",
+    "clipSkip": 2
+   },
+   "author": "eduardo_saffe",
+   "authorUrl": "https://civitai.com/user/eduardo_saffe",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/15565887",
+   "createdAt": "2024-06-12T20:22:36.607Z",
+   "stats": {
+    "views": 149070,
+    "likes": 10325,
+    "favorites": 4726,
+    "downloads": 2252
+   },
+   "modelShort": "SDXL",
+   "colorFamily": "mono"
+  },
+  {
+   "slug": "crystal-fall",
+   "title": "球中瀑布",
+   "modelId": "sdxl",
+   "modelLabel": "SDXL 1.0",
+   "tags": [
+    "still-life",
+    "surreal",
+    "indoor",
+    "blue-tone",
+    "concept"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 64517382,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc2189cb-9ca7-4f49-83a9-a04de1cbad69/original=true/cc2189cb-9ca7-4f49-83a9-a04de1cbad69.jpeg",
+   "width": 1024,
+   "height": 1024,
+   "prompt": "Within a crystal ball (on an old worn wooded table), we see a waterfall. A river of water pours into the room.\n\nmystcorbCE_style",
+   "negativePrompt": "",
+   "params": {
+    "steps": 30,
+    "sampler": "Euler",
+    "cfg": 2.2,
+    "seed": "1067524912691762",
+    "size": "1024x1024"
+   },
+   "author": "CreativeEdge",
+   "authorUrl": "https://civitai.com/user/CreativeEdge",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/64517382",
+   "createdAt": "2025-04-24T02:17:01.986Z",
+   "stats": {
+    "views": 198028,
+    "likes": 14215,
+    "favorites": 5676,
+    "downloads": 3065
+   },
+   "modelShort": "SDXL",
+   "colorFamily": "cyan"
+  },
+  {
+   "slug": "flower-goddess",
+   "title": "花冠女神",
+   "modelId": "sd15",
+   "modelLabel": "Stable Diffusion 1.5",
+   "tags": [
+    "goddess",
+    "flower",
+    "fantasy",
+    "vertical",
+    "warm-tone"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 3674791,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/adaeef10-d455-4dc2-9cdd-daa932c2db86/original=true/adaeef10-d455-4dc2-9cdd-daa932c2db86.jpeg",
+   "width": 2048,
+   "height": 3648,
+   "prompt": "(high quality:1.4), (best quality:1.4), (masterpiece:1.4), official art, official wallpaper, surreal, beautifulgoddess, (1woman:1.1), (long wavy hair:1.1), (flower crown:1.1), (mystical creatures:1.1), (floating islands:1.1), (detailed landscape:1.1), (magic in the air:1.1), (stardust:1.1), night sky, (whimsical atmosphere:1.1), (dreamlike world:1.1), (bubbles:1.1), flying books, (luna moths:1.1), (moonlight:1.1), enchanted forest, (wisdom:1.1), (powerful energy:1.1), (guardian angels:1.1), (peaceful:1.1), vibrant colors, (detailed:1.05), (extremely detailed:1.06), sharp focus, (intricate:1.03), cinematic lighting, (extremely intricate:1.04), (epic scenery:1.09), vibrant colors, (beautiful scenery:1.08), (detailed scenery:1.08), (intricate scenery:1.07), (wonderful scenery:1.05),, (sharp focus,absurdres,high quality,masterpiece,highres,best quality:1.5)",
+   "negativePrompt": "EasyNegativeV2, (low quality:1.32), (normal quality:1.31), (worst quality:1.33), (bad anatomy), (bad Hands), (mutated limbs:1.2), (mutated hands, mutated fingers:1.2), (deformed hands:1.2), (text:1.5), simple background,, (normal quality:2), (low quality:2), (worst quality:2)",
+   "params": {
+    "steps": 15,
+    "sampler": "DPM++ 2M Karras",
+    "cfg": 7,
+    "seed": "2569584901",
+    "size": "1024x1824",
+    "clipSkip": 2
+   },
+   "author": "BerserkFG",
+   "authorUrl": "https://civitai.com/user/BerserkFG",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/3674791",
+   "createdAt": "2023-11-16T19:31:40.344Z",
+   "stats": {
+    "views": 20619,
+    "likes": 1347,
+    "favorites": 531,
+    "downloads": 268
+   },
+   "modelShort": "SD 1.5",
+   "colorFamily": "blue"
+  },
+  {
+   "slug": "orange-portrait",
+   "title": "橙色肖像",
+   "modelId": "sd15",
+   "modelLabel": "Stable Diffusion 1.5",
+   "tags": [
+    "closeup",
+    "girl",
+    "orange-tone",
+    "minimal",
+    "high-contrast"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 2805528,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23f3d38a-a9f0-4932-ac06-2cf336cbc77e/original=true/23f3d38a-a9f0-4932-ac06-2cf336cbc77e.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "1girl,hair with bangs,black long dress,orange background,",
+   "negativePrompt": "(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark,",
+   "params": {
+    "steps": 20,
+    "sampler": "Restart",
+    "cfg": 7,
+    "seed": "4216575493",
+    "size": "512x768",
+    "clipSkip": 2
+   },
+   "author": "Merjic",
+   "authorUrl": "https://civitai.com/user/Merjic",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/2805528",
+   "createdAt": "2023-10-05T13:31:16.745Z",
+   "stats": {
+    "views": 17064,
+    "likes": 1165,
+    "favorites": 500,
+    "downloads": 278
+   },
+   "modelShort": "SD 1.5",
+   "colorFamily": "orange"
+  },
+  {
+   "slug": "three-pm",
+   "title": "午后三点",
+   "modelId": "sd15",
+   "modelLabel": "Stable Diffusion 1.5",
+   "tags": [
+    "girl",
+    "indoor",
+    "soft-light",
+    "warm-tone",
+    "half-body"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 1733579,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a768b16f-41b0-4eb7-89f0-5f6dbdfb0687/original=true/a768b16f-41b0-4eb7-89f0-5f6dbdfb0687.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "1girl,sitting on a cozy couch,crossing legs,soft light",
+   "negativePrompt": "(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark,badhandv4,ng_deepnegative_v1_75t,",
+   "params": {
+    "steps": 30,
+    "sampler": "Euler a",
+    "cfg": 6,
+    "seed": "2503085764",
+    "size": "512x768",
+    "clipSkip": 2
+   },
+   "author": "Merjic",
+   "authorUrl": "https://civitai.com/user/Merjic",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/1733579",
+   "createdAt": "2024-02-13T18:07:41.729Z",
+   "stats": {
+    "views": 20605,
+    "likes": 1615,
+    "favorites": 609,
+    "downloads": 323
+   },
+   "modelShort": "SD 1.5",
+   "colorFamily": "orange"
+  },
+  {
+   "slug": "mountain-nap",
+   "title": "山间小憩",
+   "modelId": "illu",
+   "modelLabel": "Illustrious XL",
+   "tags": [
+    "cat",
+    "landscape",
+    "mountain",
+    "soft-light",
+    "warm-tone"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 60206877,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afcab5fa-e580-489a-9ea8-bca23534be08/original=true/afcab5fa-e580-489a-9ea8-bca23534be08.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "realistic, solo, cat, cute, sleeping, light_particles, nature, mountain, depth of field, the best quality, amazing quality, high quality, masterpiece,",
+   "negativePrompt": "bad quality,worst quality,worst detail,sketch,censor,",
+   "params": {
+    "steps": 30,
+    "sampler": "DPM++ 2M",
+    "cfg": 7,
+    "seed": "174790514",
+    "size": "832x1216"
+   },
+   "author": "Asto556",
+   "authorUrl": "https://civitai.com/user/Asto556",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/60206877",
+   "createdAt": "2025-02-26T17:00:00.000Z",
+   "stats": {
+    "views": 185230,
+    "likes": 11843,
+    "favorites": 3950,
+    "downloads": 1587
+   },
+   "modelShort": "Illustrious",
+   "colorFamily": "blue"
+  },
+  {
+   "slug": "spore-forest",
+   "title": "孢子森林",
+   "modelId": "illu",
+   "modelLabel": "Illustrious XL",
+   "tags": [
+    "forest",
+    "fantasy",
+    "girl",
+    "cool-tone",
+    "concept"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 5,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 92503923,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5770c78-bf54-49e7-8c2c-b1beddc22119/original=true/b5770c78-bf54-49e7-8c2c-b1beddc22119.jpeg",
+   "width": 1664,
+   "height": 2432,
+   "prompt": "incredibly absurdres, highres, masterpiece, newest, creative, filmic, cinematic, amazing lighting, magical, realistic, great angle, fantasy, mushroom forest, clearing, mystical, small fairy, sitting, side view, thimble, solo, knees together, feet apart, vivid, nighttime, night sky, multicolored, lush, wings, tiny life, fairy attire, nebula, background castle in fog, mountain, trees",
+   "negativePrompt": "worst quality, bad quality, low quality, lowres, cartoon, anime, nude, young, (((looking at viewer))), fuzzy, snow, makeup",
+   "params": {
+    "steps": 30,
+    "sampler": "Euler a",
+    "cfg": 5,
+    "size": "1664x2432"
+   },
+   "author": "TurinBjorn",
+   "authorUrl": "https://civitai.com/user/TurinBjorn",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/92503923",
+   "createdAt": "2025-08-05T19:52:48.053Z",
+   "stats": {
+    "views": 89340,
+    "likes": 8430,
+    "favorites": 2747,
+    "downloads": 1262
+   },
+   "modelShort": "Illustrious",
+   "colorFamily": "cyan"
+  },
+  {
+   "slug": "shadow-side",
+   "title": "影之侧",
+   "modelId": "illu",
+   "modelLabel": "Illustrious XL",
+   "tags": [
+    "mono",
+    "closeup",
+    "gothic",
+    "girl",
+    "high-contrast"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 84694801,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f8e9dc25-7408-4ebc-9120-8a65a6b7557a/original=true/f8e9dc25-7408-4ebc-9120-8a65a6b7557a.jpeg",
+   "width": 1264,
+   "height": 1848,
+   "prompt": "Fantasy Style, Grunge, masterpiece, high_quality, highres, woman, portrait, monochromatic color, black, \nethereal woman in soft light, shadow crawling behind her expression, neutral, looking at viewer, dream or illusion, palette porcelain skin, pale rose, deep black, style surreal, cinematic, angle half-lit portrait, profile, \ncircle, silhouette, glass fragments",
+   "negativePrompt": "lowres, bad anatomy, deformed face, watermark, logo,",
+   "params": {
+    "steps": 30,
+    "sampler": "Euler a",
+    "cfg": 7,
+    "seed": "1138625421",
+    "size": "832x1216",
+    "clipSkip": 2
+   },
+   "author": "reijlita",
+   "authorUrl": "https://civitai.com/user/reijlita",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/84694801",
+   "createdAt": "2025-06-26T18:17:51.135Z",
+   "stats": {
+    "views": 124565,
+    "likes": 8027,
+    "favorites": 2537,
+    "downloads": 1395
+   },
+   "modelShort": "Illustrious",
+   "colorFamily": "mono"
+  },
+  {
+   "slug": "night-cat",
+   "title": "夜行猫",
+   "modelId": "illu",
+   "modelLabel": "Illustrious XL",
+   "tags": [
+    "cat",
+    "dark-tone",
+    "high-contrast",
+    "concept",
+    "closeup"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 95861628,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77ad7428-1ceb-4f7a-9bd7-72766b8faf10/original=true/77ad7428-1ceb-4f7a-9bd7-72766b8faf10.jpeg",
+   "width": 1024,
+   "height": 1504,
+   "prompt": "masterpiece, best quality, (enhanced), (stylized), (enhanced textures), perfect composition, high detail, concept art, dynamic composition, 1boy, animal, cat, glowing, gradient, gradient background, headphones, light particles, realistic, snowing, solo, starry sky, wallpaper,",
+   "negativePrompt": "(bad quality:1, worst quality:1, bad eyes:1)",
+   "params": {
+    "steps": 24,
+    "sampler": "Euler",
+    "cfg": 4,
+    "seed": "578381702269088",
+    "size": "1024x1504"
+   },
+   "author": "webys2",
+   "authorUrl": "https://civitai.com/user/webys2",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/95861628",
+   "createdAt": "2025-08-22T17:53:11.419Z",
+   "stats": {
+    "views": 85853,
+    "likes": 7804,
+    "favorites": 3619,
+    "downloads": 1745
+   },
+   "modelShort": "Illustrious",
+   "colorFamily": "blue"
+  },
+  {
+   "slug": "vermilion-cyan",
+   "title": "朱与青",
+   "modelId": "illu",
+   "modelLabel": "Illustrious XL",
+   "tags": [
+    "thick-paint",
+    "ink",
+    "girl",
+    "red-tone",
+    "high-contrast"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 95334425,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5dbdf11f-ff46-4357-a1ea-7dcab8d92c6f/original=true/5dbdf11f-ff46-4357-a1ea-7dcab8d92c6f.jpeg",
+   "width": 3168,
+   "height": 4608,
+   "prompt": "masterpiece, best quality, absurdres, ultra-detailed, intricate details, sharp focus, painterly style, traditional media, HDR, vibrant colors, ink wash, cinematic lighting, epic composition,IllusP0s, 1girl, Seiza, sad, lonely, hanfu, black ruffling_hair, brown eyes, dutch angle, scenic, cherry blossoms,  <lora:ScenicILL:0.75>",
+   "negativePrompt": "(low quality, worst quality), patreon, artist name, displeasing, ugly, poorly drawn, displeasing, very displeasing, worst quality, bad quality, oldest, deformed limbs, bad anatomy, child, chibi",
+   "params": {
+    "steps": 8,
+    "sampler": "Euler a",
+    "cfg": 6,
+    "seed": "4124978750",
+    "size": "1056x1536"
+   },
+   "author": "Chumple",
+   "authorUrl": "https://civitai.com/user/Chumple",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/95334425",
+   "createdAt": "2026-05-05T14:20:48.204Z",
+   "stats": {
+    "views": 113828,
+    "likes": 8115,
+    "favorites": 3542,
+    "downloads": 1344
+   },
+   "modelShort": "Illustrious",
+   "colorFamily": "red"
+  },
+  {
+   "slug": "star-bench",
+   "title": "星夜长椅",
+   "modelId": "krea",
+   "modelLabel": "Krea 2",
+   "tags": [
+    "starry",
+    "witch",
+    "girl",
+    "full-body",
+    "cool-tone"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 146304747,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53cd66e1-5fca-4197-a30a-8e0658d2fa63/original=true/53cd66e1-5fca-4197-a30a-8e0658d2fa63.jpeg",
+   "width": 1344,
+   "height": 1728,
+   "prompt": "An anime illustration of a single girl sitting alone on a bench under a starry night sky, wearing a witch hat and black-purple gradient clothing, with a jack-o-lantern bag resting beside her; she gazes upward in quiet wonder at the Milky Way, surrounded by red and blue gradient stars that shimmer across the darkening sky, as soft black shadows of the street fade into green hues at the horizon, rendered in smooth gradient colors with gentle lighting that highlights her silhouette against the cosmic backdrop.",
+   "negativePrompt": "",
+   "params": {
+    "steps": 10,
+    "sampler": "Euler",
+    "cfg": 1,
+    "seed": "809479031118647",
+    "size": "1344x1728"
+   },
+   "author": "RisingV",
+   "authorUrl": "https://civitai.com/user/RisingV",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/146304747",
+   "createdAt": "2026-10-21T00:49:14.562Z",
+   "stats": {
+    "views": 16902,
+    "likes": 1633,
+    "favorites": 539,
+    "downloads": 325
+   },
+   "modelShort": "Krea 2",
+   "colorFamily": "purple"
+  },
+  {
+   "slug": "faded-film",
+   "title": "褪色底片",
+   "modelId": "krea",
+   "modelLabel": "Krea 2",
+   "tags": [
+    "film",
+    "closeup",
+    "girl",
+    "low-sat",
+    "dark-tone"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 147820382,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06e7eecb-ff94-4d4b-8f45-a095f4e8a341/original=true/06e7eecb-ff94-4d4b-8f45-a095f4e8a341.jpeg",
+   "width": 832,
+   "height": 1248,
+   "prompt": "masterpiece, best quality, very aesthetic, ektachrome fade film, \nA painterly illustration with strong ink outlines, high contrast, and a gritty atmospheric mood. A mature adult female elf (over 21) with antlers and long white hair sits on a wooden swing suspended by vines. She wears a white dress and is surrounded by glowing white butterflies and flowers. The background is a deep, dark night sky. Heavy black ink outlines define the swing ropes, the antlers, the dress folds, the vines, and the glowing insects. High contrast between the bright blue/white figure and the black background. Dynamic composition with the swing hanging in the void.",
+   "negativePrompt": "(2d ,Illustration, drawing, cartoon, animation, anima, painting:1.4)",
+   "params": {
+    "steps": 8,
+    "sampler": "euler",
+    "cfg": 1,
+    "seed": "795484352",
+    "size": "832x1248"
+   },
+   "author": "Stolentime",
+   "authorUrl": "https://civitai.com/user/Stolentime",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/147820382",
+   "createdAt": "2026-11-03T18:13:26.554Z",
+   "stats": {
+    "views": 20561,
+    "likes": 1586,
+    "favorites": 533,
+    "downloads": 243
+   },
+   "modelShort": "Krea 2",
+   "colorFamily": "earth"
+  },
+  {
+   "slug": "frost-walker",
+   "title": "霜色旅人",
+   "modelId": "krea",
+   "modelLabel": "Krea 2",
+   "tags": [
+    "fantasy",
+    "girl",
+    "full-body",
+    "blue-tone",
+    "thick-paint"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 147348096,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/99dc1ab7-62ca-4a4a-9249-6d082e76f2e8/original=true/99dc1ab7-62ca-4a4a-9249-6d082e76f2e8.jpeg",
+   "width": 1256,
+   "height": 1672,
+   "prompt": "This digital illustration   Digital painting,  High-fantasy digital illustration style with crisp line work, smooth gradient shading, and an ethereal, painterly aesthetic. A full-length vertical composition depicts a female knight resting against the thick, chalky white bark of an ancient tree adorned with pure white, sharp-edged ivy leaves. The warrior has platinum-blonde hair styled in twin braids, resting her head back thoughtfully while wearing heavy dark iron plate armor over brown leather boots, a deep crimson-red hood, and a matching fabric sash at her waist. She holds a massive, stylized fantasy greatsword that sticks straight down into the forest floor, its blade sculpted from a luminous, glowing ice-blue crystal that emanates a bright internal energy. Surrounding her feet is a dense thicket of oversized, highly saturated electric-blue lily flowers and small ground blossoms. Two small black cats with wide eyes sit in the grass nearby, one to her left and one to her right. Looming in the blurry, atmospheric background is the massive, majestic head of a crystalline white dragon with glowing ice-blue eyes, appearing seamlessly out of a hazy, misty blue fog. The color palette is dominated by cool monochrome blues, crisp whites, and dark charcoal armor tones, punctuated by the vibrant crimson of her hood.  ---  Epic fantasy graphic novel art style with clean contours, rich cel-shading, and deep atmospheric color grading. A noble heroine in medieval battle armor takes a quiet moment under the shadow of a ghostly pale tree with white-scaled leaves. Her face is soft and angled upward, framed by a dark ruby-red hooded cloak and white braided hair. Her gauntleted hands rest atop the hilt of a glowing crystal broadsword that vibrates with an intense cyan light, illuminating the surrounding clusters of giant neon-blue lilies and creeping white ivy vines. On the stone path below her armor, two companions in the form of sleek black cats sit quietly observing the scene. In the hazy, soft-focus distance, a colossal white ice dragon merges with the swirling blue mist, its large horns and sharp reptilian jawline cutting through the overcast atmosphere. The lighting feels magical and directional, coming from the sword itself and a soft overhead skylight, casting cool highlights across the metallic plates and organic flora.  ---  Stylized dark fantasy anime illustration featuring a magical and serene composition. The scene focuses on a young blonde paladin in dark segmented armor and a deep red mantle, leaning wearily against a massive bleached-white tree trunk. Her hands grip a large sword forged from translucent blue crystal that casts an intensely vibrant glow down upon a bed of surreal, giant cerulean lilies. Crawling up the side of the trunk are sharp, graphic white leaves. At the base of the frame, two small black domestic cats sit nestled in the shadows of the large flowers. The upper background is filled with a dense, misty blue twilight fog from which the ethereal silhouette of a giant, ancient white dragon emerges, its icy eyes locked onto the horizon. The entire illustration has a smooth, polished texture with clean color planes, shifting from deep midnight blues to bright glowing cyans, balanced by the stark contrast of the solid black cats and the warm red hood fabric. <lora:Purple_Illustrations-krea-2-base-epoch-10:1>",
+   "negativePrompt": "This digital illustration   Digital painting,  High-fantasy digital illustration style with crisp line work, smooth gradient shading, and an ethereal, painterly aesthetic. A full-length vertical composition depicts a female knight resting against the thick, chalky white bark of an ancient tree adorned with pure white, sharp-edged ivy leaves. The warrior has platinum-blonde hair styled in twin braids, resting her head back thoughtfully while wearing heavy dark iron plate armor over brown leather boots, a deep crimson-red hood, and a matching fabric sash at her waist. She holds a massive, stylized fantasy greatsword that sticks straight down into the forest floor, its blade sculpted from a luminous, glowing ice-blue crystal that emanates a bright internal energy. Surrounding her feet is a dense thicket of oversized, highly saturated electric-blue lily flowers and small ground blossoms. Two small black cats with wide eyes sit in the grass nearby, one to her left and one to her right. Looming in the blurry, atmospheric background is the massive, majestic head of a crystalline white dragon with glowing ice-blue eyes, appearing seamlessly out of a hazy, misty blue fog. The color palette is dominated by cool monochrome blues, crisp whites, and dark charcoal armor tones, punctuated by the vibrant crimson of her hood.  ---  Epic fantasy graphic novel art style with clean contours, rich cel-shading, and deep atmospheric color grading. A noble heroine in medieval battle armor takes a quiet moment under the shadow of a ghostly pale tree with white-scaled leaves. Her face is soft and angled upward, framed by a dark ruby-red hooded cloak and white braided hair. Her gauntleted hands rest atop the hilt of a glowing crystal broadsword that vibrates with an intense cyan light, illuminating the surrounding clusters of giant neon-blue lilies and creeping white ivy vines. On the stone path below her armor, two companions in the form of sleek black cats sit quietly observing the scene. In the hazy, soft-focus distance, a colossal white ice dragon merges with the swirling blue mist, its large horns and sharp reptilian jawline cutting through the overcast atmosphere. The lighting feels magical and directional, coming from the sword itself and a soft overhead skylight, casting cool highlights across the metallic plates and organic flora.  ---  Stylized dark fantasy anime illustration featuring a magical and serene composition. The scene focuses on a young blonde paladin in dark segmented armor and a deep red mantle, leaning wearily against a massive bleached-white tree trunk. Her hands grip a large sword forged from translucent blue crystal that casts an intensely vibrant glow down upon a bed of surreal, giant cerulean lilies. Crawling up the side of the trunk are sharp, graphic white leaves. At the base of the frame, two small black domestic cats sit nestled in the shadows of the large flowers. The upper background is filled with a dense, misty blue twilight fog from which the ethereal silhouette of a giant, ancient white dragon emerges, its icy eyes locked onto the horizon. The entire illustration has a smooth, polished texture with clean color planes, shifting from deep midnight blues to bright glowing cyans, balanced by the stark contrast of the solid black cats and the warm red hood fabric.",
+   "params": {
+    "steps": 8,
+    "sampler": "exponential/ddim_beta57",
+    "cfg": 1,
+    "seed": "513822810374121",
+    "size": "1256x1672",
+    "clipSkip": 1
+   },
+   "author": "purplelady",
+   "authorUrl": "https://civitai.com/user/purplelady",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/147348096",
+   "createdAt": "2026-10-30T16:49:20.368Z",
+   "stats": {
+    "views": 20736,
+    "likes": 1681,
+    "favorites": 709,
+    "downloads": 265
+   },
+   "modelShort": "Krea 2",
+   "colorFamily": "blue"
+  },
+  {
+   "slug": "halloween-lantern",
+   "title": "万圣纸灯",
+   "modelId": "krea",
+   "modelLabel": "Krea 2",
+   "tags": [
+    "chinese",
+    "ink",
+    "cat",
+    "warm-tone",
+    "fantasy"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 146990549,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5dd9af5-c818-453c-a44a-ddb270a786d9/original=true/c5dd9af5-c818-453c-a44a-ddb270a786d9.jpeg",
+   "width": 1712,
+   "height": 2304,
+   "prompt": "A poetic Halloween fantasy scene in a cinematic composition, blending colorful Chinese ink-wash painting, expressive watercolor illustration, and restrained surrealism. A small black cat stands on an abandoned railway platform in the lower-left foreground on a mysterious Halloween night, holding a miniature glowing pumpkin lantern in its mouth as it prepares to board a ghost train. The cat has deep matte-black fur with subtle blue-violet reflections, delicate whiskers, luminous golden eyes, and a weathered burnt-orange scarf with loose woven fibers and frayed ends fluttering in the cold midnight breeze. One front paw is lifted toward the train’s first step, while its head turns slightly backward as if it has heard someone whisper its name from the darkness. The miniature pumpkin lantern has an irregular carved face, translucent amber flesh, and a warm golden-orange glow that illuminates the stones beneath the cat’s paws and reveals the texture of its scarf.\n\nAn antique black steam train stretches across the right half of the frame, its curved iron surfaces, aged brass fittings, scratched dark paint, and rain-soaked windows partially dissolving into flowing watercolor mist. Soft turquoise light glows from the train’s windows, casting thin luminous reflections across the wet iron rails. A tiny translucent white ghost peeks out from one carriage window, gently waving at the cat. Several small black bats flutter through the Halloween night sky, with varied sizes and wing positions creating a natural sense of depth: a few distant silhouettes cross in front of the enormous pale violet moon, while two or three nearer bats glide above the train and among the twisted tree branches. Their delicate silhouettes blend harmoniously into the expressive ink-painted sky without obscuring the moon, the cat, or the train windows.\n\nThe railway tracks emerge from the bottom edge and sweep diagonally toward the center-right, guiding the eye into the scene. Behind the train, a dense Halloween forest of twisted trees and crooked branches forms an intricate silhouette against an enormous pale violet moon. A few floating pumpkins appear subtly among the distant trees, while tiny orange lights recede along the railway into the mist. Colorful autumn leaves drift across the extreme foreground, softly out of focus, adding cinematic depth without cluttering the composition.\n\nCool lavender moonlight illuminates the forest from behind, tracing delicate silver-blue highlights along the cat’s ears, back, and tail. The pumpkin lantern provides a concentrated amber-orange key light, while turquoise light spills from the train windows onto the wet iron rails. Wisps of violet, indigo, and teal mist curl between the train and the forest, accompanied by a handful of subtle golden sparks floating in the air. Maintain a mysterious, enchanting atmosphere rather than a frightening or horror-focused mood, as if a forgotten Halloween folktale is unfolding at the precise stroke of midnight.\n\nRender the small black cat, glowing pumpkin lantern, and nearest train steps with crisp definition, expressive silhouettes, delicate whiskers, convincing fur texture, and intricate material details. The scarf should show natural folds and individual woven fibers. The pumpkin lantern should have softly glowing translucent edges. The ghost train should combine weathered iron, aged brass, and rain-speckled glass. In contrast, allow the distant carriages, twisted forest, bats, and clouds to dissolve into loose Chinese ink washes, visible pigment granulation, dry-brush textures, irregular watercolor blooms, and translucent layered washes. Let selected branches dissolve into splattered black ink, with vibrant turquoise and vermilion pigments bleeding organically across the sky. Incorporate subtle rice-paper grain, flowing pigment trails, and controlled ink splatters without overwhelming the main subjects.\n\nUse a sophisticated palette of midnight black, indigo, violet, lavender, turquoise, vermilion, and pumpkin orange. The glowing pumpkin lantern is the primary focal point, the cat’s luminous golden eyes provide a secondary point of interest, and the turquoise train windows create a cool visual counterpoint. Preserve clear negative space around the cat’s face and lantern, maintain a strong separation between the cat’s silhouette and the background, and balance the visual weight between the lower-left foreground and the train on the right. Layered atmospheric perspective, elegant diagonal leading lines, cinematic depth of field, soft foreground blur, intricate painterly textures, luminous color contrasts, restrained surrealism, and exquisite watercolor detail. A beautifully illustrated frame from a mysterious animated fantasy film, whimsical, atmospheric, nostalgic, magical, and filled with tiny Halloween secrets waiting to be discovered.",
+   "negativePrompt": "",
+   "params": {
+    "steps": 8,
+    "sampler": "Euler",
+    "cfg": 1,
+    "size": "1712x2304"
+   },
+   "author": "FUNLUCKY",
+   "authorUrl": "https://civitai.com/user/FUNLUCKY",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/146990549",
+   "createdAt": "2026-10-27T11:31:08.999Z",
+   "stats": {
+    "views": 22932,
+    "likes": 1598,
+    "favorites": 783,
+    "downloads": 317
+   },
+   "modelShort": "Krea 2",
+   "colorFamily": "orange"
+  },
+  {
+   "slug": "deco-echo",
+   "title": "装饰回响",
+   "modelId": "krea",
+   "modelLabel": "Krea 2",
+   "tags": [
+    "retro-future",
+    "minimal",
+    "high-contrast",
+    "concept",
+    "still-life"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 146193427,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb6007ab-a282-47b9-8f79-eb3ed2adb413/original=true/cb6007ab-a282-47b9-8f79-eb3ed2adb413.jpeg",
+   "width": 1024,
+   "height": 1024,
+   "prompt": "RISOGRAPH, Art Deco style. A thickly painted oil painting. A young girl, wabisabi, 1girl with bob hair,  indie, landscape, (sacrifice:1.5), A girl sitting on a slope. seiza, An asymmetrical composition,",
+   "negativePrompt": "",
+   "params": {
+    "steps": 30,
+    "sampler": "euler",
+    "cfg": 3.5,
+    "seed": "178933667",
+    "size": "1024x1024"
+   },
+   "author": "hongkong731",
+   "authorUrl": "https://civitai.com/user/hongkong731",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/146193427",
+   "createdAt": "2026-10-19T21:11:57.016Z",
+   "stats": {
+    "views": 18587,
+    "likes": 1855,
+    "favorites": 845,
+    "downloads": 417
+   },
+   "modelShort": "Krea 2",
+   "colorFamily": "yellow"
+  },
+  {
+   "slug": "brush-theater",
+   "title": "笔触剧场",
+   "modelId": "krea",
+   "modelLabel": "Krea 2",
+   "tags": [
+    "thick-paint",
+    "girl",
+    "closeup",
+    "warm-tone",
+    "surreal"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 146969267,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a1cbb8a-fd02-4f74-beed-fc36f57faf7d/original=true/4a1cbb8a-fd02-4f74-beed-fc36f57faf7d.jpeg",
+   "width": 1088,
+   "height": 1792,
+   "prompt": "A cinematic and realistic shot painted with expressive brushwork. A surreal, massive, infinite indoor room. The floor is covered in a dusty 1990s beige carpet, and the ceiling is a standard white office drop ceiling. However, a distorted suburban neighborhood is growing directly out of the carpet. The houses are physically impossible: leaning at gravity-defying angles, intersecting each other seamlessly without breaking, and twisting into non-Euclidean shapes. Some houses are completely upside down, their roofs pointing toward the floor, while water flows upward from their gutters toward the ceiling tiles. A tiny, lone human silhouette walks on the carpet at the base of these warped structures, dwarfed by the impossible architecture. The shadows cast by the houses fall in contradictory directions. \nDramatic, cinematic lighting: the cold, flickering fluorescent light from the ceiling above mixes with the warm, unnatural orange glow coming from the twisted windows of the indoor houses, creating a deeply confusing and eerie atmosphere. Palette of dusty beige, cold fluorescent white, concrete grey, and warm window orange. Mood of claustrophobic, absurd, and deeply dreamlike. Full-bleed composition, edge-to-edge framing, deep textures on carpet, concrete, glass, and light.",
+   "negativePrompt": "",
+   "params": {
+    "steps": 9,
+    "sampler": "euler",
+    "cfg": 1,
+    "seed": "506472772",
+    "size": "1088x1792"
+   },
+   "author": "Smorafina",
+   "authorUrl": "https://civitai.com/user/Smorafina",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/146969267",
+   "createdAt": "2026-10-27T06:23:28.422Z",
+   "stats": {
+    "views": 22843,
+    "likes": 1714,
+    "favorites": 650,
+    "downloads": 226
+   },
+   "modelShort": "Krea 2",
+   "colorFamily": "orange"
+  },
+  {
+   "slug": "red-field",
+   "title": "红原",
+   "modelId": "anima",
+   "modelLabel": "Anima 2.9B",
+   "tags": [
+    "landscape",
+    "red-tone",
+    "back-view",
+    "girl",
+    "low-sat"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 4,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 147032148,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7b03f7e0-7918-4e94-b247-0fd5a06e81cf/original=true/7b03f7e0-7918-4e94-b247-0fd5a06e81cf.jpeg",
+   "width": 1536,
+   "height": 2304,
+   "prompt": "A lone young woman with long dark hair, seen from behind, sitting in a vast field of dense waist-high crimson red and magenta grass, off-center to the side, small against the landscape, muted earth-toned clothing, shoulders slightly hunched, gazing at the horizon, textured detailed grass blades, simple open expanse, low viewpoint just above the grass, soft atmospheric dusty pink highlights fading to dark burgundy shadows, massive gas giant planet dominating the sky with curved surface half visible, banded atmosphere in pale turquoise cream ochre tones, swirling vortices storm patterns, thin glowing teal horizon line, low distant mountains hazy plains, cool blue-green planetary tones contrasting warm red terrain, vertical composition, wide cinematic perspective, painterly surreal planetary sci-fi landscape, quiet solitude and awe, pronounced visible brushstrokes, layered tones, loose energetic brushstrokes, sense of movement depth, abstract realism impressionism, soft shadows highlights, volumetric lighting, intricate details\n(masterpiece:1.2), (best quality:1.2), best quality, high quality, absurdres, highres, detailed, depth of field, , high detail, best quality, very aesthetic, aged up",
+   "negativePrompt": "worst quality, low quality, score_1, score_2, score_3, artist name, (lowres:1.2), (worst quality:1.4), (low quality:1.4), (bad anatomy:1.4), bad hands, multiple views, jpeg artifacts, patreon logo, patreon username, web address, signature, watermark, text, logo, artist name, censored, mosaic censoring, loli, chibi, cleavage",
+   "params": {
+    "steps": 40,
+    "sampler": "er_sde",
+    "cfg": 3,
+    "seed": "2077410289",
+    "size": "1536x2304"
+   },
+   "author": "phinjo",
+   "authorUrl": "https://civitai.com/user/phinjo",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/147032148",
+   "createdAt": "2026-10-27T20:35:00.000Z",
+   "stats": {
+    "views": 17892,
+    "likes": 1474,
+    "favorites": 462,
+    "downloads": 213
+   },
+   "modelShort": "Anima",
+   "colorFamily": "red"
+  },
+  {
+   "slug": "crystal-girl",
+   "title": "水晶与少女",
+   "modelId": "anima",
+   "modelLabel": "Anima 2.9B",
+   "tags": [
+    "closeup",
+    "girl",
+    "fantasy",
+    "cool-tone",
+    "concept"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 149205520,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5a49bac3-eda7-4ce0-98bb-4885c2ae38bf/original=true/5a49bac3-eda7-4ce0-98bb-4885c2ae38bf.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "masterpiece, high quality, absurdres, 2026, safe, 1girl, 1other, pale ash blonde hair, sharp needle-fine hair tips, luminous violet eyes, serene focused expression, clutching crystal object to chest, chic desaturated slate blue dress, high collar, ornate silver filigree embroidery, dense impasto technique, rich painterly layers, form defined by light and shadow, razor-sharp contour definition, smooth velvety skin contrasting with hard-edged chiseled glass reflections, overwhelming radiant backlight, blinding rim light with ethereal bloom, floating sparkling light dust, subdued elegant palette with vivid violet and chromatic prism accents directing the gaze to the face, holding an intricately faceted transparent crystal teddy bear that refracts dazzling rainbow light, standing inside a grand hall with dramatic sunbeams cutting through atmospheric haze",
+   "negativePrompt": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, lowres, text, watermark, signature, username, bad hands, extra fingers, fewer digits, missing fingers, cropped, out of frame, nsfw, explicit, nipples, pubic hair",
+   "params": {
+    "steps": 31,
+    "sampler": "ER SDE",
+    "cfg": 4,
+    "seed": "2514650284",
+    "size": "1024x1536"
+   },
+   "author": "nkj0018269",
+   "authorUrl": "https://civitai.com/user/nkj0018269",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/149205520",
+   "createdAt": "2026-11-16T09:32:39.338Z",
+   "stats": {
+    "views": 1468,
+    "likes": 98,
+    "favorites": 31,
+    "downloads": 18
+   },
+   "modelShort": "Anima",
+   "colorFamily": "blue"
+  },
+  {
+   "slug": "redshift",
+   "title": "红移",
+   "modelId": "anima",
+   "modelLabel": "Anima 2.9B",
+   "tags": [
+    "cyberpunk",
+    "girl",
+    "red-tone",
+    "high-contrast",
+    "half-body",
+    "neon"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 149205372,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b267df8-bd14-4678-901e-27ac01c4fc25/original=true/9b267df8-bd14-4678-901e-27ac01c4fc25.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "official style, official art, arctenox, muted_color, limited_palette, analogous colors, red theme, (chromatic aberration:1.7), blurry foreground, dutch angle, cowboy shot, red embers, BREAK, 1girl, solo, holding, sheathed, katana, flaming_sheath, covered mouth, looking at viewer, BREAK, latex_gloves, covered shoulder, red oversized_scarf, torn_scarf, ((flaming_scarf, flaming poncho)), red eye, flaming eye, ((burnt military_uniform, burnt_armband)), BREAK, black hair, red gradient hair, forehead, small breasts, hair over one eye, masterpiece, best quality, absurdres, very awa",
+   "negativePrompt": "worst quality, low quality, bad, artistic error, worst aesthetic, jpeg artifacts, bad hands, mutated hands, fewer digits, ugly, signature, watermark",
+   "params": {
+    "steps": 30,
+    "sampler": "euler_ancestral",
+    "cfg": 7,
+    "seed": "1227323745",
+    "size": "832x1216"
+   },
+   "author": "Arctenox",
+   "authorUrl": "https://civitai.com/user/Arctenox",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/149205372",
+   "createdAt": "2026-11-16T09:29:48.359Z",
+   "stats": {
+    "views": 2414,
+    "likes": 95,
+    "favorites": 28,
+    "downloads": 21
+   },
+   "modelShort": "Anima",
+   "colorFamily": "red"
+  },
+  {
+   "slug": "nineties-street",
+   "title": "九十年代街头",
+   "modelId": "moss",
+   "modelLabel": "MOSS Image",
+   "tags": [
+    "film",
+    "street",
+    "group",
+    "retro-future",
+    "wide"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 149203579,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/932685ae-436a-474f-8a64-ac1501150dd6/original=true/932685ae-436a-474f-8a64-ac1501150dd6.jpeg",
+   "width": 1216,
+   "height": 832,
+   "prompt": "4 старушки на улице провинциального русского города вспоминают свою молодость, они смело идут на объектив фотографа, одеты в моде 90х. в смелые мини наряды, глянцевые чулки и лосины, верх-адидас 3 полоски. Смелый яркий макияж. Репортажное фото очень высокого качества",
+   "negativePrompt": "",
+   "params": {
+    "steps": 8,
+    "sampler": "er_sde",
+    "cfg": 1,
+    "seed": "1905169627",
+    "size": "1216x832"
+   },
+   "author": "DizzyHarvester511",
+   "authorUrl": "https://civitai.com/user/DizzyHarvester511",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/149203579",
+   "createdAt": "2026-11-16T09:31:00.000Z",
+   "stats": {
+    "views": 2224,
+    "likes": 166,
+    "favorites": 81,
+    "downloads": 31
+   },
+   "modelShort": "MOSS",
+   "colorFamily": "orange"
+  },
+  {
+   "slug": "one-eye-walker",
+   "title": "单眼步行者",
+   "modelId": "moss",
+   "modelLabel": "MOSS Image",
+   "tags": [
+    "mecha",
+    "dark-tone",
+    "concept",
+    "vertical",
+    "high-contrast"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 149205427,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d196b9e3-f611-4cf7-a4b3-d9377bf53133/original=true/d196b9e3-f611-4cf7-a4b3-d9377bf53133.jpeg",
+   "width": 1280,
+   "height": 1600,
+   "prompt": "masterpiece, best quality, absurdres,\nmalebolgia, peacewalker mech, walker (robot), mecha, one-eyed, black background, non-humanoid robot, no humans, science fiction, missile pod, standing, holding, simple background, camouflage, military vehicle, glowing eye, sangvis ferri\n <lora:[Konami] Metal Gear Solid - Peace Walker Robot Mech Style Moss:1>",
+   "negativePrompt": "blurry, low quality, text, watermark, speech bubble, logo, loli, shota, child, toddler, baby, censored, censor, logo, signature, website, monochrome, greyscale, comic, manga, 3d,",
+   "params": {
+    "steps": 30,
+    "sampler": "ER SDE",
+    "cfg": 2.5,
+    "seed": "3894917296",
+    "size": "1280x1600"
+   },
+   "author": "Malebolgia",
+   "authorUrl": "https://civitai.com/user/Malebolgia",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/149205427",
+   "createdAt": "2026-11-16T09:30:00.575Z",
+   "stats": {
+    "views": 1789,
+    "likes": 101,
+    "favorites": 50,
+    "downloads": 17
+   },
+   "modelShort": "MOSS",
+   "colorFamily": "mono"
+  },
+  {
+   "slug": "bedtime-phone",
+   "title": "睡前刷手机",
+   "modelId": "minimax",
+   "modelLabel": "MiniMax H3",
+   "tags": [
+    "cat",
+    "indoor",
+    "humor",
+    "soft-light",
+    "warm-tone"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 146980723,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd8aff43-e4a5-4af6-bb74-bc6f11c0b574/original=true/dd8aff43-e4a5-4af6-bb74-bc6f11c0b574.mp4",
+   "width": 704,
+   "height": 960,
+   "prompt": "A brown tabby cat with white chest and paws lies in a bed, propped on a cat-patterned duvet with orange and grey cartoon cats and paw prints, holding a black phone with a triple-lens camera in its front paws, the screen glowing pale blue across its face.\n\nFrom second 1 to 3: At first the cat lies on its back, paws holding the phone, its thumb pad swiping up the screen in short, repeated taps, eyes tracking upward off the phone. The clock ticks forwards in time towards 5:30 AM\n\nFrom Second 3 to 4: As the room floods with light from the sun, its eyes open wide and its ears flatten, its mouth opens wide and gasps, and both paws release the phone so it flips up and lands softly on the duvet beside it. The clock in the background ticks forwards towards 6:00AM \n\nFrom Second 4-5: Then the cat turns its head toward the clock in the background, one ear half-folded, before turning his head back towards the camera and slapping the side of this face with both hands. He's got a shocked expression. The clock in the background ticks forwards towards 6:30AM\n\nFrom second 5-7: The cat kicks off the duvet and jumps out of bed. The clock in the background ticks forwards towards 7:30AM\n\nSetting. A small bedroom at night, the bed filling the lower two-thirds of the frame, a wooden nightstand to the right holding a stack of books, a ceramic cat figurine, and a digital alarm clock on top.\n\nLighting. The opening is near-dark, lit only by the cold blue phone screen on the cat's face. A warm bedside lamp then snaps on, the whole room lifting into soft warm light, the duvet and walls turning beige, the cat's fur catching a warm highlight. The nightstand clock in the upper right reads \"3:18 AM\" in blue seven-segment digits on a black face; do not misspell it, do not add any other text.\n\nComposition and camera. A locked frame at the cat's eye level, the cat centered, the phone in the foreground, the nightstand and clock in the upper right corner. The frame never moves - no push in, no handheld, no zoom, no dolly, no reframe; one continuous take with no cuts.\n\nAudio. A quiet room-tone bed throughout. First the soft tap-tap of the thumb swiping the screen. Then a sharp click as the lamp switch engages and the room floods with light. Then a short, high meow as the cat winces. Then a soft thud as the phone lands on the duvet. Then only ambient room tone. No music.",
+   "negativePrompt": "",
+   "params": {
+    "steps": 30,
+    "seed": "822836870",
+    "size": "704x960"
+   },
+   "author": "Eva4321",
+   "authorUrl": "https://civitai.com/user/Eva4321",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/146980723",
+   "createdAt": "2026-10-28T00:45:00.000Z",
+   "stats": {
+    "views": 11920,
+    "likes": 1026,
+    "favorites": 328,
+    "downloads": 165
+   },
+   "modelShort": "MiniMax",
+   "localSource": "scripts/seed-originals/minimax-cat.webp",
+   "colorFamily": "orange"
+  },
+  {
+   "slug": "frieren-zoltraak",
+   "title": "杀人魔法",
+   "modelId": "minimax",
+   "modelLabel": "MiniMax H3",
+   "tags": [
+    "anime",
+    "closeup",
+    "girl",
+    "fantasy",
+    "cool-tone"
+   ],
+   "characters": [
+    "frieren"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 149205208,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/785a1feb-388c-44c0-b11e-5f29532d9526/original=true/785a1feb-388c-44c0-b11e-5f29532d9526.mp4",
+   "width": 704,
+   "height": 704,
+   "prompt": "Frieren, she is looking to the viewer's right.  The camera does a close-up Frieren her face, Frieren whispers to herself, \"Zoltraak.\"  Fern shoots a RPG to the viewer's right.",
+   "negativePrompt": "",
+   "params": {
+    "steps": 30,
+    "seed": "773396863",
+    "size": "704x704"
+   },
+   "author": "S1gn0n",
+   "authorUrl": "https://civitai.com/user/S1gn0n",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/149205208",
+   "createdAt": "2026-11-16T09:26:36.656Z",
+   "stats": {
+    "views": 2156,
+    "likes": 93,
+    "favorites": 30,
+    "downloads": 11
+   },
+   "modelShort": "MiniMax",
+   "localSource": "scripts/seed-originals/frieren.webp",
+   "colorFamily": "cyan"
+  },
+  {
+   "slug": "qipao-girl",
+   "title": "旗袍少女",
+   "modelId": "zimage",
+   "modelLabel": "ZImage Turbo",
+   "tags": [
+    "chinese",
+    "qipao",
+    "girl",
+    "closeup",
+    "green-tone"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 149205447,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af0c7209-a869-474c-8391-5755c8f9d77d/original=true/af0c7209-a869-474c-8391-5755c8f9d77d.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "N_かわいい女子",
+   "negativePrompt": "",
+   "params": {
+    "steps": 9,
+    "sampler": "euler",
+    "cfg": 1,
+    "seed": "484804946",
+    "size": "832x1216"
+   },
+   "author": "sanoma629988",
+   "authorUrl": "https://civitai.com/user/sanoma629988",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/149205447",
+   "createdAt": "2026-11-16T09:30:38.956Z",
+   "stats": {
+    "views": 2480,
+    "likes": 162,
+    "favorites": 78,
+    "downloads": 34
+   },
+   "modelShort": "ZImage",
+   "colorFamily": "green"
+  },
+  {
+   "slug": "candle-queen",
+   "title": "烛影女王",
+   "modelId": "zimage",
+   "modelLabel": "ZImage Turbo",
+   "tags": [
+    "gothic",
+    "candle",
+    "dark-tone",
+    "wide",
+    "fantasy"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 149202166,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/800ccbdf-aa41-4574-a736-12cb8980daad/original=true/800ccbdf-aa41-4574-a736-12cb8980daad.jpeg",
+   "width": 1344,
+   "height": 768,
+   "prompt": "A gothic queen sits in dim candlelight, her gaze distant and unreadable, a Siamese cat beside her as smoke, shadows, and quiet menace fill the chamber. Subject: The woman occupies the central left of the frame, seated behind an ancient table covered with scrolls and artifacts. Her pose is statuesque yet naturalâthe right arm bent, hand resting upon the tableâs surface with fingers loosely curved, their tips smeared faintly with dark residue, while her left hand holds a small figurine of glass or silver between thumb and forefinger, raised delicately toward the faint light. Her spine is straight, her posture regal, exuding controlled stillness rather than rest. Her head tilts slightly back and to the right, eyes half-lidded yet alert, directed at something unseen beyond the viewer. Her expression blends apathy and calculation; lips parted slightly, her breath visible in the cold glow seeping through the gothic windows behind her. Her face, illuminated from the right, contrasts against the shadows draped over her left side, rendering her beauty both soft and severe. Her attire is a masterpiece of intricate dark textilesâlong sleeves of patterned silk that cling to her arms, embroidered with faint filigree catching glints of candlelight. Around her neck, an elaborate collar of blackened feathers forms a rigid fan that extends upward, each plume shaped to appear like shards of obsidian, merging into the metallic crown she wears. The crown itself is minimalist but sharp, composed of interlocking dark spikes forming a jagged halo around her head. Her hands are elegant but show signs of ritual useâslight stains, faint scratches, subtle traces of ink and wax upon her fingertips.",
+   "negativePrompt": "warm colors, blurry, yellow color, sweat, oily skin, finger rings",
+   "params": {
+    "steps": 8,
+    "sampler": "res_2s",
+    "cfg": 1,
+    "seed": "1074748309909363",
+    "size": "1344x768"
+   },
+   "author": "Hopper",
+   "authorUrl": "https://civitai.com/user/Hopper",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/149202166",
+   "createdAt": "2026-11-16T09:34:00.000Z",
+   "stats": {
+    "views": 1857,
+    "likes": 93,
+    "favorites": 37,
+    "downloads": 21
+   },
+   "modelShort": "ZImage",
+   "colorFamily": "orange"
+  },
+  {
+   "slug": "rain-alley",
+   "title": "雨巷",
+   "modelId": "zimage",
+   "modelLabel": "ZImage Turbo",
+   "tags": [
+    "rain",
+    "street",
+    "wide",
+    "mono",
+    "film"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 6,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 149202070,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68c5e057-7ce2-4650-acb4-1cf895ad33ee/original=true/68c5e057-7ce2-4650-acb4-1cf895ad33ee.jpeg",
+   "width": 1344,
+   "height": 768,
+   "prompt": "In a courtyard of wet stone and rising fog, she cuts a sharp black line through the pale morning, umbrella raised like a private shield against the rain. Tall boots flash against the reflective tiles while a light scarf holds her hair close, her stride purposeful and unbroken. The old walls and distant dome watch without comment, their surfaces blurred by mist as if the city itself is half-asleep. This is a frame from the quiet cinema of solitary journeys, where a single figure in black becomes the only clear intention in a world of soft edges and falling water. She continues across the stones without pause, a brief, determined silhouette moving through the long patience of stone and weather",
+   "negativePrompt": "warm colors, blurry, yellow color, sweat, oily skin, finger rings",
+   "params": {
+    "steps": 8,
+    "sampler": "res_2s",
+    "cfg": 1,
+    "seed": "845414289052174",
+    "size": "1344x768"
+   },
+   "author": "Hopper",
+   "authorUrl": "https://civitai.com/user/Hopper",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/149202070",
+   "createdAt": "2026-11-16T09:34:00.000Z",
+   "stats": {
+    "views": 2713,
+    "likes": 127,
+    "favorites": 50,
+    "downloads": 24
+   },
+   "modelShort": "ZImage",
+   "colorFamily": "mono"
+  },
+  {
+   "slug": "black-dress",
+   "title": "黑裙手记",
+   "modelId": "qwen",
+   "modelLabel": "Qwen-Image",
+   "tags": [
+    "girl",
+    "full-body",
+    "minimal",
+    "low-sat",
+    "indoor"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 148135404,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4564e383-e755-44a2-a92e-d4e36485a0b9/original=true/4564e383-e755-44a2-a92e-d4e36485a0b9.jpeg",
+   "width": 768,
+   "height": 1376,
+   "prompt": "digital illustration with hand-drawn texture: a female figure in a black dress standing in shallow water during a rainy environment, holding white flowers and wearing red stockings and black shoes. floating flowers are visible in the water. wet pavement texture is visible in the foreground with crisp edges and soft gradients. the orange void is placed in the lower-left quadrant, acting as a chromatic accent against the cool grayscale. the orange void has a textured, impasto-like finish contrasting with the smooth grayscale. the orange void introduces a visceral warmth against the cold tones. light is diffused and cool, creating a hazy atmospheric glow. the composition is dominated by a vertical axis bisected by the orange void, with tonal blocks of deep black and pale gray arranged in a rhythmic pattern. negative space occupies the right third, creating visual counterweight. the wet pavement's reflections generate horizontal rhythm, while the orange void acts as a focal anchor. the scene evokes contemplative melancholy with a subtle undercurrent of warmth. the orange void's placement disrupts the grayscale without overwhelming it, guiding the eye like a whispered secret. the orange void's warmth feels both intimate and alien, mirroring the quiet ache of being alone in a vast, wet city.",
+   "negativePrompt": "",
+   "params": {
+    "steps": 25,
+    "sampler": "Euler",
+    "cfg": 1,
+    "seed": "9102308937596",
+    "size": "768x1376"
+   },
+   "author": "Weak_Examination",
+   "authorUrl": "https://civitai.com/user/Weak_Examination",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/148135404",
+   "createdAt": "2026-11-06T17:02:18.868Z",
+   "stats": {
+    "views": 19133,
+    "likes": 1230,
+    "favorites": 578,
+    "downloads": 266
+   },
+   "modelShort": "Qwen",
+   "colorFamily": "mono"
+  },
+  {
+   "slug": "mist-theater",
+   "title": "雾中剧场",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "landscape",
+    "surreal",
+    "low-sat",
+    "concept",
+    "dark-tone"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 75799145,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd4e0f10-aa6f-42f5-8bc0-5dba35ad2a13/original=true/fd4e0f10-aa6f-42f5-8bc0-5dba35ad2a13.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "Dead can dance, misty morning, unreal shapes emerge from the fog, photo realism.",
+   "negativePrompt": "",
+   "params": {
+    "size": "1024x1536"
+   },
+   "author": "highCastle",
+   "authorUrl": "https://civitai.com/user/highCastle",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/75799145",
+   "createdAt": "2025-05-18T06:58:39.518Z",
+   "stats": {
+    "views": 144963,
+    "likes": 12185,
+    "favorites": 4208,
+    "downloads": 2219
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "green"
+  },
+  {
+   "slug": "faceless",
+   "title": "无面肖像",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "surreal",
+    "closeup",
+    "high-contrast",
+    "concept",
+    "girl"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 75749028,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4d25013-1fb5-4610-8610-07a466ab2627/original=true/a4d25013-1fb5-4610-8610-07a466ab2627.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "realistic, vibrant, detailed. a cinematic photograph classily depicts a prestigious beautiful woman dressed in an all white dress. The woman has no face. Her head is a sphere, a colorful gradient foreign planet, and not a human head. Her outfit is adorned by luxurious gold trim and other attire. Her skin is tan with smooth rough textures. She has a very detailed planetary sphere for her head that emits natural weather phenomenon and neon ethereal ozonous layers, swirls, and hues. The image is sharp and professional with studio quality. The contrast and style is very sharp, but liquid and vivid. Gorgeous background and details with subtle hints of illumination. glass, ether, spirit, breath, light, energy. Particles, high density quality, vibrant colors and hues. The overall style of the image is highly stylish, dynamic and free-flowing elegance., modest, sfw",
+   "negativePrompt": "",
+   "params": {
+    "size": "1024x1536"
+   },
+   "author": "Ocean3",
+   "authorUrl": "https://civitai.com/user/Ocean3",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/75749028",
+   "createdAt": "2025-05-18T06:49:19.333Z",
+   "stats": {
+    "views": 157309,
+    "likes": 11120,
+    "favorites": 5093,
+    "downloads": 1964
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "earth"
+  },
+  {
+   "slug": "golden-breakout",
+   "title": "金色突围",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "warrior",
+    "cyberpunk",
+    "full-body",
+    "high-contrast",
+    "desert"
+   ],
+   "characters": [
+    "original"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 77725327,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c2c256f-fa37-4abe-a44d-a9327dfea308/original=true/3c2c256f-fa37-4abe-a44d-a9327dfea308.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "A futuristic Egyptian warrior leaps through the air in a dynamic pose, mid-battle against an army of rogue AI constructs. Their armor is a sleek fusion of gold nanometal and holographic hieroglyphs, glowing with ancient power. A high-tech ankh pulses with blue plasma energy in one hand, while the other channels a beam of scarab-like drones. Behind them, a colossal pyramid-shaped starship hovers above a neon-lit desert city, casting angular shadows across towering obelisks made of obsidian and glass. Dust and energy swirl dramatically in the air. Style: cyberpharaoh aesthetic, ultra-detailed, cinematic sci-fi, glowing tech motifs, movement blur, richly textured, Moebius meets Dune",
+   "negativePrompt": "",
+   "params": {
+    "size": "1024x1536"
+   },
+   "author": "CitronLegacy",
+   "authorUrl": "https://civitai.com/user/CitronLegacy",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/77725327",
+   "createdAt": "2025-05-22T01:44:09.644Z",
+   "stats": {
+    "views": 110990,
+    "likes": 7968,
+    "favorites": 3103,
+    "downloads": 1852
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "orange"
+  },
+  {
+   "slug": "heresy-trial",
+   "title": "异端审判",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "humor",
+    "anime",
+    "wide",
+    "warrior",
+    "girl"
+   ],
+   "characters": [
+    "aqua"
+   ],
+   "featured": 0,
+   "promptPublic": true,
+   "note": "",
+   "civitaiId": 146492000,
+   "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5811763b-88aa-4fbd-ac2f-520a543f4ced/original=true/5811763b-88aa-4fbd-ac2f-520a543f4ced.jpeg",
+   "width": 1536,
+   "height": 864,
+   "prompt": "A highly detailed humorous CGI anime illustration depicting a dynamic wide shot of Aqua from Konosuba dressed as an Adepta Sororitas (Sister of Battle from Warhammer 40K) firing a Heavy Flamer in a sweeping pattern at an endless wave of Tyranid monsters while making her famous Aqua Crying/Screaming face.\nAt the top left of the image is Aqua from Konosuba (first image for reference). She is dressed as an Adepta Sororitas and is wielding a Heavy Flamer (second image for reference). The flame trail suggests that she was firing it towards the bottom of the image and is sweeping to the right. She has a humorous, exaggerated, panicking, crying expression like in the Aqua Screaming meme (third and fourth images for reference). She is inside of dark, scary, Tyranid-infested tunnels and catacombs, with her back to a wall. There are various immolated and burning Tyranid monsters at the bottom of the image and more are coming from the right where the heavy flamer is firing.",
+   "negativePrompt": "",
+   "params": {
+    "steps": 0,
+    "sampler": "GPT-Image-2.5-sunburst",
+    "cfg": 0,
+    "seed": "1948670008",
+    "size": "1536x864"
+   },
+   "author": "Zlia",
+   "authorUrl": "https://civitai.com/user/Zlia",
+   "sourceName": "Civitai",
+   "sourceUrl": "https://civitai.com/images/146492000",
+   "createdAt": "2026-10-22T20:08:00.000Z",
+   "stats": {
+    "views": 21126,
+    "likes": 1304,
+    "favorites": 412,
+    "downloads": 172
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "red"
+  },
+  {
+   "slug": "mengyin-17",
+   "title": "深蓝前奏",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "stage",
+    "blue-tone",
+    "girl",
+    "wide",
+    "low-sat"
+   ],
+   "characters": [
+    "mengyin"
+   ],
+   "featured": 1,
+   "promptPublic": false,
+   "note": "作者未公开提示词",
+   "localSource": "scripts/seed-originals/mengyin-17.webp",
+   "width": 1600,
+   "height": 900,
+   "prompt": "",
+   "negativePrompt": "",
+   "params": {
+    "size": "1600x900"
+   },
+   "author": "阿木",
+   "authorUrl": "https://github.com/amu263",
+   "sourceName": "幻绘",
+   "sourceUrl": "/",
+   "createdAt": "2026-08-25T20:00:00.000Z",
+   "stats": {
+    "views": 18400,
+    "likes": 1240,
+    "favorites": 558,
+    "downloads": 248
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "blue"
+  },
+  {
+   "slug": "mengyin-18",
+   "title": "蓝幕主视觉",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "stage",
+    "blue-tone",
+    "girl",
+    "vertical",
+    "low-sat"
+   ],
+   "characters": [
+    "mengyin"
+   ],
+   "featured": 0,
+   "promptPublic": false,
+   "note": "作者未公开提示词",
+   "localSource": "scripts/seed-originals/mengyin-18.webp",
+   "width": 1600,
+   "height": 1600,
+   "prompt": "",
+   "negativePrompt": "",
+   "params": {
+    "size": "1600x1600"
+   },
+   "author": "阿木",
+   "authorUrl": "https://github.com/amu263",
+   "sourceName": "幻绘",
+   "sourceUrl": "/",
+   "createdAt": "2026-08-25T20:00:00.000Z",
+   "stats": {
+    "views": 15200,
+    "likes": 980,
+    "favorites": 441,
+    "downloads": 196
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "blue"
+  },
+  {
+   "slug": "mengyin-19",
+   "title": "粉红戏剧",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "stage",
+    "pink-tone",
+    "girl",
+    "vertical",
+    "high-contrast"
+   ],
+   "characters": [
+    "mengyin"
+   ],
+   "featured": 0,
+   "promptPublic": false,
+   "note": "作者未公开提示词",
+   "localSource": "scripts/seed-originals/mengyin-19.webp",
+   "width": 1600,
+   "height": 1999,
+   "prompt": "",
+   "negativePrompt": "",
+   "params": {
+    "size": "1600x1999"
+   },
+   "author": "阿木",
+   "authorUrl": "https://github.com/amu263",
+   "sourceName": "幻绘",
+   "sourceUrl": "/",
+   "createdAt": "2026-08-25T20:00:00.000Z",
+   "stats": {
+    "views": 16100,
+    "likes": 1120,
+    "favorites": 504,
+    "downloads": 224
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "pink"
+  },
+  {
+   "slug": "mengyin-20",
+   "title": "灰白现场",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "stage",
+    "mono",
+    "girl",
+    "vertical",
+    "low-sat"
+   ],
+   "characters": [
+    "mengyin"
+   ],
+   "featured": 0,
+   "promptPublic": false,
+   "note": "作者未公开提示词",
+   "localSource": "scripts/seed-originals/mengyin-20.webp",
+   "width": 1600,
+   "height": 1999,
+   "prompt": "",
+   "negativePrompt": "",
+   "params": {
+    "size": "1600x1999"
+   },
+   "author": "阿木",
+   "authorUrl": "https://github.com/amu263",
+   "sourceName": "幻绘",
+   "sourceUrl": "/",
+   "createdAt": "2026-08-25T20:00:00.000Z",
+   "stats": {
+    "views": 11200,
+    "likes": 760,
+    "favorites": 342,
+    "downloads": 152
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "mono"
+  },
+  {
+   "slug": "mengyin-21",
+   "title": "烟雾之后",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "stage",
+    "mono",
+    "girl",
+    "wide",
+    "low-sat"
+   ],
+   "characters": [
+    "mengyin"
+   ],
+   "featured": 0,
+   "promptPublic": false,
+   "note": "作者未公开提示词",
+   "localSource": "scripts/seed-originals/mengyin-21.webp",
+   "width": 1600,
+   "height": 936,
+   "prompt": "",
+   "negativePrompt": "",
+   "params": {
+    "size": "1600x936"
+   },
+   "author": "阿木",
+   "authorUrl": "https://github.com/amu263",
+   "sourceName": "幻绘",
+   "sourceUrl": "/",
+   "createdAt": "2026-08-25T20:00:00.000Z",
+   "stats": {
+    "views": 10800,
+    "likes": 690,
+    "favorites": 310,
+    "downloads": 138
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "mono"
+  },
+  {
+   "slug": "mengyin-22",
+   "title": "青色留白",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "stage",
+    "cool-tone",
+    "girl",
+    "vertical",
+    "low-sat"
+   ],
+   "characters": [
+    "mengyin"
+   ],
+   "featured": 0,
+   "promptPublic": false,
+   "note": "作者未公开提示词",
+   "localSource": "scripts/seed-originals/mengyin-22.webp",
+   "width": 1600,
+   "height": 2400,
+   "prompt": "",
+   "negativePrompt": "",
+   "params": {
+    "size": "1600x2400"
+   },
+   "author": "阿木",
+   "authorUrl": "https://github.com/amu263",
+   "sourceName": "幻绘",
+   "sourceUrl": "/",
+   "createdAt": "2026-08-25T20:00:00.000Z",
+   "stats": {
+    "views": 13900,
+    "likes": 880,
+    "favorites": 396,
+    "downloads": 176
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "cyan"
+  },
+  {
+   "slug": "mengyin-23",
+   "title": "尾奏",
+   "modelId": "gpt",
+   "modelLabel": "GPT-Image 2",
+   "tags": [
+    "stage",
+    "mono",
+    "girl",
+    "vertical",
+    "minimal"
+   ],
+   "characters": [
+    "mengyin"
+   ],
+   "featured": 0,
+   "promptPublic": false,
+   "note": "作者未公开提示词",
+   "localSource": "scripts/seed-originals/mengyin-23.webp",
+   "width": 1600,
+   "height": 2400,
+   "prompt": "",
+   "negativePrompt": "",
+   "params": {
+    "size": "1600x2400"
+   },
+   "author": "阿木",
+   "authorUrl": "https://github.com/amu263",
+   "sourceName": "幻绘",
+   "sourceUrl": "/",
+   "createdAt": "2026-08-25T20:00:00.000Z",
+   "stats": {
+    "views": 9700,
+    "likes": 640,
+    "favorites": 288,
+    "downloads": 128
+   },
+   "modelShort": "GPT-Image 2",
+   "colorFamily": "mono"
+  }
+ ],
+ "models": [
+  {
+   "id": "flux",
+   "name": "FLUX.1",
+   "en": "FLUX.1",
+   "vendor": "Black Forest Labs",
+   "code": "FLX",
+   "tagline": "光影、材质与写实的上限",
+   "blurb": "适合电影感构图、复杂材质与写实场景，自然语言提示词友好。",
+   "order": 1
+  },
+  {
+   "id": "gpt",
+   "name": "GPT-Image 2",
+   "en": "GPT-Image 2",
+   "vendor": "OpenAI",
+   "code": "GPT",
+   "tagline": "自然语言直出，画面完整度高",
+   "blurb": "擅长整体氛围、文字排版与多物体关系，提示词可以像说话一样写。",
+   "order": 2
+  },
+  {
+   "id": "krea",
+   "name": "Krea 2",
+   "en": "Krea 2",
+   "vendor": "Krea",
+   "code": "KREA",
+   "tagline": "笔触、胶片与实验质感",
+   "blurb": "强风格化输出，适合插画、海报与带有手工媒介感的画面。",
+   "order": 3
+  },
+  {
+   "id": "illu",
+   "name": "Illustrious XL",
+   "en": "Illustrious XL",
+   "vendor": "Onoma AI",
+   "code": "ILXL",
+   "tagline": "干净线条与强构图",
+   "blurb": "二次元插画与角色立绘的高命中率底模，标签式提示词表现稳定。",
+   "order": 4
+  },
+  {
+   "id": "pony",
+   "name": "Pony Diffusion V6 XL",
+   "en": "Pony Diffusion V6 XL",
+   "vendor": "PurpleSmartAI",
+   "code": "PONY",
+   "tagline": "角色与同人创作的老牌底座",
+   "blurb": "对角色特征、姿态与服饰有很强的还原力，社区权重体系成熟。",
+   "order": 5
+  },
+  {
+   "id": "sdxl",
+   "name": "SDXL 1.0",
+   "en": "SDXL 1.0",
+   "vendor": "Stability AI",
+   "code": "SDXL",
+   "tagline": "通用底模，风格跨度大",
+   "blurb": "从写实肖像到概念场景都能覆盖，适合作为风格混合的起点。",
+   "order": 6
+  },
+  {
+   "id": "sd15",
+   "name": "Stable Diffusion 1.5",
+   "en": "SD 1.5",
+   "vendor": "Stability AI",
+   "code": "SD15",
+   "tagline": "经典底模，手感熟悉",
+   "blurb": "生态庞大、可控性强，很多风格化 LoRA 仍然以它为底座。",
+   "order": 7
+  },
+  {
+   "id": "anima",
+   "name": "Anima 2.9B",
+   "en": "Anima 2.9B",
+   "vendor": "Anima",
+   "code": "ANIMA",
+   "tagline": "轻量模型的高完成度",
+   "blurb": "小参数量的动漫向模型，擅长干净画面与克制的色彩。",
+   "order": 8
+  },
+  {
+   "id": "zimage",
+   "name": "ZImage Turbo",
+   "en": "ZImage Turbo",
+   "vendor": "ZImage",
+   "code": "ZIMG",
+   "tagline": "少步数的写实与电影感",
+   "blurb": "Turbo 推理下依然保持稳定的构图和光影，适合快速出片。",
+   "order": 9
+  },
+  {
+   "id": "moss",
+   "name": "MOSS Image",
+   "en": "MOSS Image",
+   "vendor": "OpenMOSS",
+   "code": "MOSS",
+   "tagline": "叙事感与镜头语言",
+   "blurb": "对场景叙事、镜头角度与群像关系有不错的表现。",
+   "order": 10
+  },
+  {
+   "id": "qwen",
+   "name": "Qwen-Image",
+   "en": "Qwen-Image",
+   "vendor": "阿里通义",
+   "code": "QWEN",
+   "tagline": "中文语义与东方审美",
+   "blurb": "对中文提示词和东方服饰、场景的理解更直接。",
+   "order": 11
+  },
+  {
+   "id": "minimax",
+   "name": "MiniMax H3",
+   "en": "MiniMax H3",
+   "vendor": "MiniMax",
+   "code": "MMH3",
+   "tagline": "生活感与细节叙事",
+   "blurb": "擅长日常场景、动物与轻松题材，画面亲和。",
+   "order": 12
+  }
+ ],
+ "characters": [
+  {
+   "id": "original",
+   "name": "原创角色",
+   "en": "ORIGINAL",
+   "series": "原创",
+   "blurb": "没有名字的主角，凭画面被记住。",
+   "coverId": "two-face",
+   "coverPosition": "50% 35%"
+  },
+  {
+   "id": "mengyin",
+   "name": "萌音莜奈",
+   "en": "MENGYIN YUNAI",
+   "series": "虚拟主播",
+   "blurb": "在蓝色舞台与黑白留白之间切换的虚拟歌势。",
+   "coverId": "mengyin-19",
+   "coverPosition": "50% 30%"
+  },
+  {
+   "id": "san",
+   "name": "珊",
+   "en": "SAN",
+   "series": "幽灵公主",
+   "blurb": "在森林、兽群与铁器之间长大的少女。",
+   "coverId": "san-forest",
+   "coverPosition": "50% 28%"
+  },
+  {
+   "id": "aqua",
+   "name": "阿库娅",
+   "en": "AQUA",
+   "series": "为美好的世界献上祝福！",
+   "blurb": "把审判与火焰都变成喜剧的女神。",
+   "coverId": "heresy-trial",
+   "coverPosition": "20% 32%"
+  },
+  {
+   "id": "frieren",
+   "name": "芙莉莲",
+   "en": "FRIEREN",
+   "series": "葬送的芙莉莲",
+   "blurb": "活了千年，仍在学习人类时间的精灵魔法使。",
+   "coverId": "frieren-zoltraak",
+   "coverPosition": "50% 30%"
+  }
+ ],
+ "tags": [
+  {
+   "id": "cyberpunk",
+   "name": "赛博朋克",
+   "en": "CYBERPUNK",
+   "group": "风格"
+  },
+  {
+   "id": "ink",
+   "name": "水墨",
+   "en": "INK WASH",
+   "group": "风格"
+  },
+  {
+   "id": "thick-paint",
+   "name": "厚涂",
+   "en": "PAINTERLY",
+   "group": "风格"
+  },
+  {
+   "id": "film",
+   "name": "胶片",
+   "en": "FILM",
+   "group": "风格"
+  },
+  {
+   "id": "gothic",
+   "name": "哥特",
+   "en": "GOTHIC",
+   "group": "风格"
+  },
+  {
+   "id": "minimal",
+   "name": "极简",
+   "en": "MINIMAL",
+   "group": "风格"
+  },
+  {
+   "id": "retro-future",
+   "name": "复古未来",
+   "en": "RETRO FUTURE",
+   "group": "风格"
+  },
+  {
+   "id": "fantasy",
+   "name": "奇幻",
+   "en": "FANTASY",
+   "group": "风格"
+  },
+  {
+   "id": "realistic",
+   "name": "写实",
+   "en": "REALISTIC",
+   "group": "风格"
+  },
+  {
+   "id": "anime",
+   "name": "二次元",
+   "en": "ANIME",
+   "group": "风格"
+  },
+  {
+   "id": "concept",
+   "name": "概念艺术",
+   "en": "CONCEPT ART",
+   "group": "风格"
+  },
+  {
+   "id": "surreal",
+   "name": "超现实",
+   "en": "SURREAL",
+   "group": "风格"
+  },
+  {
+   "id": "forest",
+   "name": "森林",
+   "en": "FOREST",
+   "group": "场景"
+  },
+  {
+   "id": "rain",
+   "name": "雨",
+   "en": "RAIN",
+   "group": "场景"
+  },
+  {
+   "id": "stage",
+   "name": "舞台",
+   "en": "STAGE",
+   "group": "场景"
+  },
+  {
+   "id": "indoor",
+   "name": "室内",
+   "en": "INDOOR",
+   "group": "场景"
+  },
+  {
+   "id": "street",
+   "name": "街头",
+   "en": "STREET",
+   "group": "场景"
+  },
+  {
+   "id": "garden",
+   "name": "花园",
+   "en": "GARDEN",
+   "group": "场景"
+  },
+  {
+   "id": "desert",
+   "name": "沙漠",
+   "en": "DESERT",
+   "group": "场景"
+  },
+  {
+   "id": "starry",
+   "name": "星夜",
+   "en": "STARRY NIGHT",
+   "group": "场景"
+  },
+  {
+   "id": "mountain",
+   "name": "山野",
+   "en": "MOUNTAIN",
+   "group": "场景"
+  },
+  {
+   "id": "kimono",
+   "name": "和服",
+   "en": "KIMONO",
+   "group": "服饰"
+  },
+  {
+   "id": "qipao",
+   "name": "旗袍",
+   "en": "QIPAO",
+   "group": "服饰"
+  },
+  {
+   "id": "robe",
+   "name": "长袍",
+   "en": "ROBE",
+   "group": "服饰"
+  },
+  {
+   "id": "sweater",
+   "name": "毛衣",
+   "en": "SWEATER",
+   "group": "服饰"
+  },
+  {
+   "id": "closeup",
+   "name": "特写",
+   "en": "CLOSE-UP",
+   "group": "构图"
+  },
+  {
+   "id": "half-body",
+   "name": "半身",
+   "en": "HALF BODY",
+   "group": "构图"
+  },
+  {
+   "id": "full-body",
+   "name": "全身",
+   "en": "FULL BODY",
+   "group": "构图"
+  },
+  {
+   "id": "back-view",
+   "name": "背影",
+   "en": "BACK VIEW",
+   "group": "构图"
+  },
+  {
+   "id": "group",
+   "name": "群像",
+   "en": "GROUP",
+   "group": "构图"
+  },
+  {
+   "id": "wide",
+   "name": "宽幅",
+   "en": "WIDE",
+   "group": "构图"
+  },
+  {
+   "id": "vertical",
+   "name": "竖幅",
+   "en": "VERTICAL",
+   "group": "构图"
+  },
+  {
+   "id": "backlight",
+   "name": "逆光",
+   "en": "BACKLIGHT",
+   "group": "光影"
+  },
+  {
+   "id": "soft-light",
+   "name": "柔光",
+   "en": "SOFT LIGHT",
+   "group": "光影"
+  },
+  {
+   "id": "candle",
+   "name": "烛光",
+   "en": "CANDLELIGHT",
+   "group": "光影"
+  },
+  {
+   "id": "moonlight",
+   "name": "月光",
+   "en": "MOONLIGHT",
+   "group": "光影"
+  },
+  {
+   "id": "flash",
+   "name": "闪光灯",
+   "en": "FLASH",
+   "group": "光影"
+  },
+  {
+   "id": "girl",
+   "name": "少女",
+   "en": "GIRL",
+   "group": "题材"
+  },
+  {
+   "id": "cat",
+   "name": "猫",
+   "en": "CAT",
+   "group": "题材"
+  },
+  {
+   "id": "mecha",
+   "name": "机甲",
+   "en": "MECHA",
+   "group": "题材"
+  },
+  {
+   "id": "landscape",
+   "name": "风景",
+   "en": "LANDSCAPE",
+   "group": "题材"
+  },
+  {
+   "id": "still-life",
+   "name": "静物",
+   "en": "STILL LIFE",
+   "group": "题材"
+  },
+  {
+   "id": "flower",
+   "name": "花朵",
+   "en": "FLOWER",
+   "group": "题材"
+  },
+  {
+   "id": "knight",
+   "name": "骑士",
+   "en": "KNIGHT",
+   "group": "题材"
+  },
+  {
+   "id": "warrior",
+   "name": "战士",
+   "en": "WARRIOR",
+   "group": "题材"
+  },
+  {
+   "id": "witch",
+   "name": "巫师",
+   "en": "WITCH",
+   "group": "题材"
+  },
+  {
+   "id": "goddess",
+   "name": "女神",
+   "en": "GODDESS",
+   "group": "题材"
+  },
+  {
+   "id": "humor",
+   "name": "幽默",
+   "en": "HUMOR",
+   "group": "题材"
+  },
+  {
+   "id": "chinese",
+   "name": "国风",
+   "en": "CHINESE STYLE",
+   "group": "题材"
+  },
+  {
+   "id": "fire",
+   "name": "火焰",
+   "en": "FIRE",
+   "group": "题材"
+  },
+  {
+   "id": "red-tone",
+   "name": "红调",
+   "en": "RED",
+   "group": "色调"
+  },
+  {
+   "id": "blue-tone",
+   "name": "蓝调",
+   "en": "BLUE",
+   "group": "色调"
+  },
+  {
+   "id": "green-tone",
+   "name": "绿调",
+   "en": "GREEN",
+   "group": "色调"
+  },
+  {
+   "id": "orange-tone",
+   "name": "橙调",
+   "en": "ORANGE",
+   "group": "色调"
+  },
+  {
+   "id": "pink-tone",
+   "name": "粉调",
+   "en": "PINK",
+   "group": "色调"
+  },
+  {
+   "id": "mono",
+   "name": "黑白",
+   "en": "MONO",
+   "group": "色调"
+  },
+  {
+   "id": "low-sat",
+   "name": "低饱和",
+   "en": "LOW SAT",
+   "group": "色调"
+  },
+  {
+   "id": "high-contrast",
+   "name": "高对比",
+   "en": "HIGH CONTRAST",
+   "group": "色调"
+  },
+  {
+   "id": "cool-tone",
+   "name": "冷调",
+   "en": "COOL",
+   "group": "色调"
+  },
+  {
+   "id": "warm-tone",
+   "name": "暖调",
+   "en": "WARM",
+   "group": "色调"
+  },
+  {
+   "id": "dark-tone",
+   "name": "暗调",
+   "en": "DARK",
+   "group": "色调"
+  },
+  {
+   "id": "neon",
+   "name": "霓虹",
+   "en": "NEON",
+   "group": "场景"
+  }
+ ]
+}
