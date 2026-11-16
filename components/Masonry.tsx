@@ -67,11 +67,13 @@ export default function Masonry({
     return () => ro.disconnect();
   }, [compute]);
 
+  const ready = !!layout && layout.positions.length === items.length;
+
   return (
     <div
       ref={ref}
-      className={`masonry${layout ? " is-ready" : ""} ${className}`}
-      style={{ height: layout ? layout.height : undefined }}
+      className={`masonry${ready ? " is-ready" : ""} ${className}`}
+      style={{ height: ready ? layout!.height : undefined }}
     >
       <noscript>
         <style>{`.masonry{opacity:1!important;columns:3;column-gap:3px}.masonry__item{position:static!important;width:auto!important;transform:none!important;margin-bottom:3px;break-inside:avoid}.masonry{height:auto!important}`}</style>
@@ -81,10 +83,10 @@ export default function Masonry({
           key={work.id}
           className="masonry__item"
           style={
-            layout
+            ready
               ? {
-                  width: layout.colW,
-                  transform: `translate3d(${layout.positions[i].x}px, ${layout.positions[i].y}px, 0)`,
+                  width: layout!.colW,
+                  transform: `translate3d(${layout!.positions[i].x}px, ${layout!.positions[i].y}px, 0)`,
                 }
               : undefined
           }
