@@ -247,7 +247,7 @@ if (!document.startViewTransition) { apply(); return }
 .pull { --phase-dur: 800ms; }
 .pull__flash {
   position: absolute; inset: 0; pointer-events: none;
-  background: radial-gradient(circle, #fff6df, var(--gs-gold-300) 38%, transparent 70%);
+  background: radial-gradient(circle, var(--gs-gold-100), var(--gs-gold-300) 38%, transparent 70%);
   opacity: 0;
 }
 .pull.is-burst .pull__flash { animation: burst-flash 420ms var(--gs-ease-out) both; }
