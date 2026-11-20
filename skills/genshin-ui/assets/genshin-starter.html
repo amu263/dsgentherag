@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="zh-CN" data-gs-mode="day" data-gs-element="anemo">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>提瓦特档案 · 风之旅人</title>
+<meta name="description" content="原神 UI 风格起手模板：羊皮纸、金箔、元素徽记与角色档案。">
+<link rel="icon" href="textures/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="genshin-tokens.css">
+<style>
+/* ==========================================================================
+   genshin-starter.html · 白昼 · 提瓦特 / 角色档案
+   只用 token 变量，不引入外部图片或字体。
+   ========================================================================== */
+:root { color-scheme: light; }
+[data-gs-mode="night"] { color-scheme: dark; }
+
+body {
+  min-height: 100vh;
+  background: var(--gs-paper-wash);
+  overflow-x: hidden;
+}
+[data-gs-mode="night"] body { background: var(--gs-night-grad); }
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: .55;
+  background-image: url("textures/parchment-grain.svg");
+  background-size: 180px 180px;
+  mix-blend-mode: multiply;
+}
+[data-gs-mode="night"] body::before { mix-blend-mode: screen; opacity: .12; }
+
+.page { position: relative; z-index: 1; }
+
+/* ---------- 顶栏 HUD ---------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: var(--gs-s-6);
+  height: var(--gs-header-h);
+  padding: 0 var(--gs-gutter);
+  background: color-mix(in srgb, var(--gs-surface) 86%, transparent);
+  border-bottom: 1px solid var(--gs-line);
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--gs-gold-200) 50%, transparent) inset;
+  backdrop-filter: blur(14px) saturate(120%);
+  -webkit-backdrop-filter: blur(14px) saturate(120%);
+}
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand__mark {
+  width: 26px; height: 26px;
+  background: var(--gs-element-glow), url("textures/sigil.svg") center / 78% no-repeat;
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--gs-accent) 45%, transparent));
+}
+.brand__cn { font-family: var(--gs-font-serif-cn); font-size: 17px; font-weight: 700; letter-spacing: .08em; }
+.brand__en { font-family: var(--gs-font-mono); font-size: 8px; letter-spacing: .22em; color: var(--gs-fg-muted); }
+.topnav { display: flex; align-items: center; gap: 4px; margin-left: auto; }
+.topnav a {
+  position: relative;
+  padding: 8px 14px;
+  border-radius: var(--gs-radius-pill);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-decoration: none;
+  color: var(--gs-fg-soft);
+  transition: color var(--gs-dur-base), background-color var(--gs-dur-base);
+}
+.topnav a:hover { color: var(--gs-fg); background: var(--gs-scrim); }
+.topnav a.is-active { color: var(--gs-accent-text); }
+.topnav a.is-active::after {
+  content: "";
+  position: absolute; left: 50%; bottom: 2px;
+  width: 5px; height: 5px;
+  background: var(--gs-gold);
+  transform: translateX(-50%) rotate(45deg);
+}
+.user { display: flex; align-items: center; gap: 9px; font-size: 12px; color: var(--gs-fg-muted); }
+.user__lv { font-family: var(--gs-font-mono); font-size: 10px; letter-spacing: .1em; color: var(--gs-accent-text); }
+.user__avatar {
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--gs-gold);
+  background:
+    radial-gradient(circle at 50% 38%, var(--gs-gold-100), transparent 46%),
+    conic-gradient(from 210deg, var(--gs-accent-soft), var(--gs-surface), var(--gs-accent));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--gs-gold) 18%, transparent);
+}
+
+/* ---------- 主区 ---------- */
+main {
+  width: min(var(--gs-content), calc(100% - var(--gs-gutter) * 2));
+  margin: 0 auto;
+  padding: var(--gs-s-10) 0 var(--gs-s-20);
+}
+
+/* ---------- 面板 ---------- */
+.panel {
+  position: relative;
+  background: var(--gs-paper-grad);
+  border: 1px solid var(--gs-gold);
+  border-radius: var(--gs-radius-lg);
+  box-shadow: var(--gs-shadow-panel);
+  isolation: isolate;
+}
+.panel::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  z-index: -1;
+  border: 1px solid var(--gs-line-soft);
+  border-radius: calc(var(--gs-radius-lg) - 4px);
+  pointer-events: none;
+}
+[data-gs-mode="night"] .panel { background: var(--gs-night-panel); }
+.corner {
+  position: absolute;
+  width: 24px; height: 24px;
+  pointer-events: none;
+  background: url("textures/gold-corner.svg") center / contain no-repeat;
+  opacity: .9;
+}
+.corner--tl { top: 5px; left: 5px; }
+.corner--tr { top: 5px; right: 5px; transform: rotate(90deg); }
+.corner--br { right: 5px; bottom: 5px; transform: rotate(180deg); }
+.corner--bl { left: 5px; bottom: 5px; transform: rotate(270deg); }
+
+/* ---------- 角色档案 ---------- */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(300px, .82fr) minmax(0, 1.52fr);
+  gap: var(--gs-s-6);
+  align-items: stretch;
+}
+
+.portrait {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  min-height: 560px;
+  overflow: hidden;
+}
+.portrait__frame {
+  position: relative;
+  flex: 1;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 168px 168px var(--gs-radius-md) var(--gs-radius-md);
+  border: 1px solid var(--gs-line);
+  background:
+    var(--gs-element-glow),
+    radial-gradient(circle at 50% 18%, color-mix(in srgb, var(--gs-accent-soft) 55%, transparent), transparent 55%),
+    linear-gradient(180deg, var(--gs-ivory-1), var(--gs-paper));
+}
+[data-gs-mode="night"] .portrait__frame {
+  background:
+    var(--gs-element-glow),
+    radial-gradient(circle at 50% 18%, color-mix(in srgb, var(--gs-accent) 20%, transparent), transparent 58%),
+    linear-gradient(180deg, var(--gs-night-800), var(--gs-night-900));
+}
+.portrait__frame::before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  border: 1px solid var(--gs-line-soft);
+  border-radius: inherit;
+}
+.portrait__sigil {
+  position: absolute;
+  width: 74%;
+  aspect-ratio: 1;
+  background: var(--gs-accent);
+  -webkit-mask: url("textures/sigil.svg") center / contain no-repeat;
+  mask: url("textures/sigil.svg") center / contain no-repeat;
+  opacity: .12;
+  animation: sigil-drift 60s linear infinite;
+}
+.portrait__ring {
+  position: absolute;
+  width: 58%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid color-mix(in srgb, var(--gs-accent) 45%, transparent);
+  box-shadow: 0 0 0 14px color-mix(in srgb, var(--gs-accent) 6%, transparent), 0 0 60px color-mix(in srgb, var(--gs-accent) 18%, transparent) inset;
+}
+.portrait__ring::before, .portrait__ring::after {
+  content: "";
+  position: absolute;
+  inset: 8%;
+  border-radius: 50%;
+  border: 1px dashed color-mix(in srgb, var(--gs-gold) 40%, transparent);
+}
+.portrait__ring::after { inset: -9%; border-style: solid; opacity: .5; }
+.portrait__glyph {
+  position: relative;
+  font-family: var(--gs-font-serif-cn);
+  font-size: clamp(150px, 15vw, 230px);
+  line-height: 1;
+  color: var(--gs-accent-text);
+  opacity: .9;
+  text-shadow: 0 0 50px color-mix(in srgb, var(--gs-accent) 35%, transparent);
+}
+.portrait__element {
+  position: absolute;
+  top: 12px; left: 12px;
+  display: grid; place-items: center;
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--gs-gold);
+  background: var(--gs-surface);
+  font-family: var(--gs-font-serif-cn);
+  font-size: 18px;
+  color: var(--gs-accent-text);
+  box-shadow: var(--gs-shadow-gold);
+}
+.stars { display: flex; gap: 3px; }
+.portrait__stars {
+  position: absolute;
+  left: 0; right: 0; bottom: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  font-size: 17px;
+  color: var(--gs-star-5);
+  letter-spacing: .1em;
+  text-shadow: 0 0 12px color-mix(in srgb, var(--gs-star-5) 55%, transparent);
+}
+.portrait__meta { padding: 16px 6px 4px; }
+.portrait__meta h1 {
+  margin: 0;
+  font-family: var(--gs-font-serif-cn);
+  font-size: clamp(30px, 3vw, 40px);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: .04em;
+}
+.portrait__meta p {
+  margin: 7px 0 0;
+  font-family: var(--gs-font-mono);
+  font-size: 9px;
+  letter-spacing: .24em;
+  color: var(--gs-fg-muted);
+  text-transform: uppercase;
+}
+.portrait__meta .gold-rule { margin-top: 12px; }
+
+/* ---------- 右侧信息 ---------- */
+.sheet-stack { display: grid; gap: 16px; }
+.sheet { padding: 26px; display: flex; flex-direction: column; gap: 20px; }
+.sheet__head { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.sheet__kicker {
+  font-family: var(--gs-font-mono);
+  font-size: 9px;
+  letter-spacing: .24em;
+  color: var(--gs-accent-text);
+}
+.sheet__title {
+  margin: 0;
+  font-family: var(--gs-font-display);
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: .16em;
+  color: var(--gs-fg);
+}
+.tabs { display: flex; gap: 4px; margin-left: auto; }
+.tab {
+  position: relative;
+  padding: 7px 14px;
+  border: 0;
+  border-radius: var(--gs-radius-pill);
+  background: transparent;
+  color: var(--gs-fg-muted);
+  font-family: var(--gs-font-ui);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  cursor: pointer;
+  transition: color var(--gs-dur-base), background-color var(--gs-dur-base);
+}
+.tab:hover { color: var(--gs-fg); background: var(--gs-scrim); }
+.tab.is-active { color: var(--gs-accent-text); background: color-mix(in srgb, var(--gs-accent) 12%, transparent); }
+.tab.is-active::after {
+  content: "";
+  position: absolute; left: 50%; bottom: 1px;
+  width: 5px; height: 5px;
+  background: var(--gs-gold);
+  transform: translateX(-50%) rotate(45deg);
+}
+.gold-rule { height: 1px; border: 0; background: var(--gs-gold-line); margin: 0; }
+
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.stat {
+  padding: 12px 12px 10px;
+  border-radius: var(--gs-radius-md);
+  background: color-mix(in srgb, var(--gs-surface) 72%, transparent);
+  border: 1px solid var(--gs-line-soft);
+}
+.stat dt { font-size: 10px; letter-spacing: .12em; color: var(--gs-fg-muted); }
+.stat dd { margin: 4px 0 0; font-family: var(--gs-font-display); font-size: 24px; line-height: 1; color: var(--gs-fg); }
+.stat dd span { font-family: var(--gs-font-ui); font-size: 11px; color: var(--gs-accent-text); margin-left: 2px; }
+
+.skills { display: grid; gap: 8px; }
+.skill {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: var(--gs-radius-md);
+  border: 1px solid transparent;
+  transition: background-color var(--gs-dur-base), border-color var(--gs-dur-base);
+}
+.skill:hover { background: color-mix(in srgb, var(--gs-accent) 7%, transparent); border-color: var(--gs-line-soft); }
+.skill__icon {
+  width: 44px; height: 44px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--gs-gold);
+  background:
+    radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--gs-accent) 26%, transparent), transparent 60%),
+    var(--gs-surface);
+  color: var(--gs-accent-text);
+  font-family: var(--gs-font-serif-cn);
+  font-size: 17px;
+}
+.skill__name { font-size: 14px; font-weight: 800; }
+.skill__desc { margin: 2px 0 0; font-size: 11.5px; color: var(--gs-fg-muted); }
+.skill__lv { font-family: var(--gs-font-mono); font-size: 10px; color: var(--gs-fg-muted); }
+
+/* ---------- 命之座 ---------- */
+.constellation {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 150px;
+  gap: 18px;
+  align-items: center;
+  padding: 16px;
+  border-radius: var(--gs-radius-md);
+  background: color-mix(in srgb, var(--gs-surface) 64%, transparent);
+  border: 1px solid var(--gs-line-soft);
+}
+.constellation__copy h3 {
+  margin: 0;
+  font-family: var(--gs-font-serif-cn);
+  font-size: 18px;
+  letter-spacing: .06em;
+}
+.constellation__copy p { margin: 4px 0 0; font-size: 11.5px; color: var(--gs-fg-muted); }
+.constellation__copy .stars { margin-top: 8px; color: var(--gs-gold); font-size: 12px; }
+.orbit {
+  position: relative;
+  width: 132px; height: 132px;
+  margin-left: auto;
+  border-radius: 50%;
+  border: 1px solid var(--gs-line);
+}
+.orbit::before {
+  content: "";
+  position: absolute; inset: 16px;
+  border-radius: 50%;
+  border: 1px dashed color-mix(in srgb, var(--gs-gold) 55%, transparent);
+}
+.orbit__core {
+  position: absolute; inset: 50% auto auto 50%;
+  width: 30px; height: 30px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--gs-gold-grad);
+  box-shadow: 0 0 18px color-mix(in srgb, var(--gs-gold) 50%, transparent);
+}
+.orbit__node {
+  position: absolute;
+  width: 11px; height: 11px;
+  background: var(--gs-surface);
+  border: 1px solid var(--gs-gold);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.orbit__node.is-on { background: var(--gs-accent); border-color: var(--gs-accent-soft); box-shadow: 0 0 12px var(--gs-accent); }
+.orbit__node:nth-child(2) { left: 50%; top: 4%; }
+.orbit__node:nth-child(3) { left: 88%; top: 26%; }
+.orbit__node:nth-child(4) { left: 88%; top: 74%; }
+.orbit__node:nth-child(5) { left: 50%; top: 96%; }
+.orbit__node:nth-child(6) { left: 12%; top: 74%; }
+.orbit__node:nth-child(7) { left: 12%; top: 26%; }
+
+/* ---------- 收藏 / 物品 ---------- */
+.collection { margin-top: var(--gs-s-10); }
+.section-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px; }
+.section-head h2 {
+  margin: 0;
+  font-family: var(--gs-font-serif-cn);
+  font-size: 24px;
+  letter-spacing: .08em;
+}
+.section-head span {
+  font-family: var(--gs-font-mono);
+  font-size: 9px;
+  letter-spacing: .24em;
+  color: var(--gs-fg-muted);
+}
+.cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.item {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  border-radius: var(--gs-radius-md);
+  border: 1px solid color-mix(in srgb, var(--gs-rarity, var(--gs-gold)) 55%, transparent);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--gs-rarity, var(--gs-gold)) 12%, transparent), transparent 48%),
+    var(--gs-paper-grad);
+  box-shadow: var(--gs-shadow-card);
+  transition: transform var(--gs-dur-base) var(--gs-ease-soft), box-shadow var(--gs-dur-base);
+}
+[data-gs-mode="night"] .item { background: var(--gs-night-panel); }
+.item:hover { transform: translateY(-3px); box-shadow: var(--gs-shadow-float); }
+.item__art {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: var(--gs-radius-sm);
+  border: 1px solid var(--gs-line-soft);
+  background:
+    radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--gs-rarity, var(--gs-gold)) 22%, transparent), transparent 62%),
+    var(--gs-surface);
+  display: grid; place-items: center;
+}
+.item__art::before {
+  content: "";
+  width: 58%;
+  aspect-ratio: 1;
+  background: var(--gs-rarity, var(--gs-gold));
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  opacity: .16;
+}
+.item__glyph {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 1;
+  font-family: var(--gs-font-serif-cn);
+  font-size: 44px;
+  line-height: 1;
+  color: var(--gs-rarity, var(--gs-gold));
+  text-shadow: 0 0 22px color-mix(in srgb, var(--gs-rarity, var(--gs-gold)) 35%, transparent);
+}
+.item__art::after {
+  content: "";
+  position: absolute; inset: 9%;
+  border: 1px solid color-mix(in srgb, var(--gs-rarity, var(--gs-gold)) 35%, transparent);
+  border-radius: 50%;
+}
+.item__name { font-size: 12.5px; font-weight: 800; line-height: 1.4; }
+.item__meta { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.item__type { font-family: var(--gs-font-mono); font-size: 9px; letter-spacing: .1em; color: var(--gs-fg-muted); }
+.item__stars { color: var(--gs-rarity, var(--gs-gold)); font-size: 10px; letter-spacing: 0; }
+
+/* ---------- 对话框 ---------- */
+.dialogue {
+  margin-top: var(--gs-s-10);
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 18px;
+  padding: 22px;
+  align-items: start;
+}
+.dialogue__avatar {
+  width: 88px; height: 88px;
+  border-radius: 50%;
+  border: 1px solid var(--gs-gold);
+  background:
+    var(--gs-element-glow),
+    conic-gradient(from 200deg, var(--gs-accent-soft), var(--gs-surface), var(--gs-accent));
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--gs-gold) 16%, transparent);
+}
+.dialogue__body { position: relative; }
+.dialogue__speaker {
+  margin: 0;
+  font-family: var(--gs-font-serif-cn);
+  font-size: 18px;
+  color: var(--gs-accent-text);
+  letter-spacing: .06em;
+}
+.dialogue__cta { margin: 14px 0 0; }
+.dialogue__text { margin: 6px 0 0; color: var(--gs-fg-soft); font-size: 14px; line-height: 1.9; }
+.choices { margin: 14px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.choices button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border: 1px solid var(--gs-line-soft);
+  border-radius: var(--gs-radius-md);
+  background: color-mix(in srgb, var(--gs-surface) 58%, transparent);
+  color: var(--gs-fg-soft);
+  text-align: left;
+  font-size: 13px;
+  cursor: pointer;
+  transition: border-color var(--gs-dur-base), background-color var(--gs-dur-base), color var(--gs-dur-base);
+}
+.choices button::before {
+  content: "";
+  width: 6px; height: 6px;
+  background: var(--gs-gold);
+  transform: rotate(45deg);
+  flex: none;
+}
+.choices button:hover { border-color: var(--gs-accent); background: color-mix(in srgb, var(--gs-accent) 10%, transparent); color: var(--gs-fg); }
+
+/* ---------- 主按钮 ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 0 22px;
+  border-radius: var(--gs-radius-pill);
+  border: 1px solid var(--gs-gold);
+  background: linear-gradient(180deg, var(--gs-ink-800), var(--gs-ink-900));
+  color: var(--gs-gold-100);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: var(--gs-shadow-btn), 0 0 0 3px color-mix(in srgb, var(--gs-gold) 10%, transparent) inset;
+  transition: box-shadow var(--gs-dur-base), transform var(--gs-dur-base);
+}
+.btn::before {
+  content: "";
+  width: 7px; height: 7px;
+  background: var(--gs-gold-grad);
+  transform: rotate(45deg);
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--gs-shadow-btn-hover), 0 0 0 3px color-mix(in srgb, var(--gs-gold) 22%, transparent) inset; }
+.btn--ghost { background: transparent; color: var(--gs-fg-soft); box-shadow: none; }
+.btn--ghost::before { background: var(--gs-fg-muted); }
+
+
+/* ---------- 入场动效 ---------- */
+.reveal { opacity: 0; transform: translateY(16px); animation: rise var(--gs-dur-hero) var(--gs-ease-out) forwards; }
+.reveal:nth-child(1) { animation-delay: 60ms; }
+.reveal:nth-child(2) { animation-delay: 140ms; }
+.reveal:nth-child(3) { animation-delay: 220ms; }
+.reveal:nth-child(4) { animation-delay: 300ms; }
+@keyframes rise { to { opacity: 1; transform: none; } }
+@keyframes sigil-drift { to { transform: rotate(360deg); } }
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 980px) {
+  .hero { grid-template-columns: 1fr; }
+  .portrait { min-height: 480px; }
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .topnav { display: none; }
+}
+@media (max-width: 640px) {
+  main { width: calc(100% - 28px); padding-top: 20px; }
+  .sheet { padding: 18px; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .constellation { grid-template-columns: 1fr; }
+  .orbit { margin: 0 auto; }
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dialogue { grid-template-columns: 1fr; }
+  .dialogue__avatar { width: 64px; height: 64px; }
+  .user span:last-child { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; animation: none; }
+  .portrait__sigil { animation: none; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="topbar">
+    <a class="brand" href="#">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span>
+        <span class="brand__cn">提瓦特档案</span><br>
+        <span class="brand__en">TEYVAT ARCHIVE</span>
+      </span>
+    </a>
+    <nav class="topnav" aria-label="主导航">
+      <a href="#" class="is-active">角色</a>
+      <a href="#">图鉴</a>
+      <a href="#">祈愿</a>
+      <a href="#">地图</a>
+    </nav>
+    <div class="user"><span class="user__lv">Lv.60</span><span>旅行者</span><span class="user__avatar" aria-hidden="true"></span></div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="char-name">
+      <aside class="panel portrait reveal">
+        <span class="corner corner--tl" aria-hidden="true"></span>
+        <span class="corner corner--tr" aria-hidden="true"></span>
+        <span class="corner corner--br" aria-hidden="true"></span>
+        <span class="corner corner--bl" aria-hidden="true"></span>
+        <div class="portrait__frame">
+          <span class="portrait__sigil" aria-hidden="true"></span>
+          <span class="portrait__ring" aria-hidden="true"></span>
+          <span class="portrait__glyph" aria-hidden="true">风</span>
+          <span class="portrait__element" aria-label="元素：风">风</span>
+          <span class="portrait__stars" aria-label="五星角色">★★★★★</span>
+        </div>
+        <div class="portrait__meta">
+          <h1 id="char-name">风之旅人</h1>
+          <p>ANEMO · SWORD · LV.90</p>
+          <hr class="gold-rule">
+        </div>
+      </aside>
+
+      <div class="sheet-stack">
+        <section class="panel sheet reveal" aria-labelledby="sheet-title">
+          <span class="corner corner--tl" aria-hidden="true"></span>
+          <span class="corner corner--tr" aria-hidden="true"></span>
+          <span class="corner corner--br" aria-hidden="true"></span>
+          <span class="corner corner--bl" aria-hidden="true"></span>
+          <header class="sheet__head">
+            <div>
+              <p class="sheet__kicker">CHARACTER / 001</p>
+              <h2 class="sheet__title" id="sheet-title">档案</h2>
+            </div>
+            <div class="tabs" role="tablist" aria-label="档案分页">
+              <button class="tab is-active" role="tab" aria-selected="true">属性</button>
+              <button class="tab" role="tab" aria-selected="false">天赋</button>
+              <button class="tab" role="tab" aria-selected="false">命之座</button>
+            </div>
+          </header>
+          <hr class="gold-rule">
+          <dl class="stats">
+            <div class="stat"><dt>生命值</dt><dd>14,280</dd></div>
+            <div class="stat"><dt>攻击力</dt><dd>312<span>+48</span></dd></div>
+            <div class="stat"><dt>防御力</dt><dd>784</dd></div>
+            <div class="stat"><dt>元素精通</dt><dd>96</dd></div>
+          </dl>
+          <div class="skills">
+            <div class="skill">
+              <span class="skill__icon" aria-hidden="true">风</span>
+              <div><p class="skill__name">高天之歌</p><p class="skill__desc">唤来流风，对路径上的敌人造成风元素伤害。</p></div>
+              <span class="skill__lv">Lv.10</span>
+            </div>
+            <div class="skill">
+              <span class="skill__icon" aria-hidden="true">羽</span>
+              <div><p class="skill__name">风息之翼</p><p class="skill__desc">展开风之翼，短暂滞空并聚拢周围的元素。</p></div>
+              <span class="skill__lv">Lv.10</span>
+            </div>
+            <div class="skill">
+              <span class="skill__icon" aria-hidden="true">星</span>
+              <div><p class="skill__name">千风归处</p><p class="skill__desc">汇聚千风，造成范围风元素伤害并回复队伍生命。</p></div>
+              <span class="skill__lv">Lv.10</span>
+            </div>
+          </div>
+          <div class="constellation">
+            <div class="constellation__copy">
+              <h3>命之座 · 旅人</h3>
+              <p>点亮第一颗星辰，让风指引下一次远行。</p>
+              <div class="stars" aria-label="五星">★★★★★</div>
+            </div>
+            <div class="orbit" aria-hidden="true">
+              <span class="orbit__core"></span>
+              <span class="orbit__node is-on"></span>
+              <span class="orbit__node"></span>
+              <span class="orbit__node"></span>
+              <span class="orbit__node"></span>
+              <span class="orbit__node"></span>
+              <span class="orbit__node"></span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="collection reveal" aria-labelledby="collection-title">
+      <div class="section-head">
+        <h2 id="collection-title">随行之物</h2>
+        <span>INVENTORY / 04</span>
+      </div>
+      <div class="cards">
+        <article class="item" data-gs-rarity="5">
+          <div class="item__art" aria-hidden="true"><span class="item__glyph">弓</span></div>
+          <p class="item__name">苍风之翼</p>
+          <div class="item__meta"><span class="item__type">WEAPON / BOW</span><span class="item__stars">★★★★★</span></div>
+        </article>
+        <article class="item" data-gs-rarity="4">
+          <div class="item__art" aria-hidden="true"><span class="item__glyph">羽</span></div>
+          <p class="item__name">流风之羽</p>
+          <div class="item__meta"><span class="item__type">ARTIFACT / PLUME</span><span class="item__stars">★★★★</span></div>
+        </article>
+        <article class="item" data-gs-rarity="5">
+          <div class="item__art" aria-hidden="true"><span class="item__glyph">书</span></div>
+          <p class="item__name">千风之诗</p>
+          <div class="item__meta"><span class="item__type">TALENT / BOOK</span><span class="item__stars">★★★★★</span></div>
+        </article>
+        <article class="item" data-gs-rarity="3">
+          <div class="item__art" aria-hidden="true"><span class="item__glyph">囊</span></div>
+          <p class="item__name">旅人的行囊</p>
+          <div class="item__meta"><span class="item__type">MATERIAL / COMMON</span><span class="item__stars">★★★</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel dialogue reveal" aria-labelledby="dialogue-speaker">
+      <span class="corner corner--tl" aria-hidden="true"></span>
+      <span class="corner corner--tr" aria-hidden="true"></span>
+      <span class="corner corner--br" aria-hidden="true"></span>
+      <span class="corner corner--bl" aria-hidden="true"></span>
+      <div class="dialogue__avatar" aria-hidden="true"></div>
+      <div class="dialogue__body">
+        <h2 class="dialogue__speaker" id="dialogue-speaker">风之旅人</h2>
+        <p class="dialogue__text">风向变了。是去追新的故事，还是先在这片山坡上，把今天的日落看完？</p>
+        <div class="choices" role="group" aria-label="对话选项">
+          <button type="button">沿着风的方向出发</button>
+          <button type="button">留在山坡，等一场落日</button>
+        </div>
+        <p class="dialogue__cta"><a class="btn" href="#">开启下一段旅程</a></p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+(() => {
+  document.querySelectorAll('.tab').forEach((tab) => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach((t) => {
+        t.classList.toggle('is-active', t === tab)
+        t.setAttribute('aria-selected', String(t === tab))
+      })
+    })
+  })
+})()
+</script>
+</body>
+</html>
