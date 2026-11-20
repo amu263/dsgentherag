@@ -1,0 +1,301 @@
+/* ==========================================================================
+   genshin-tokens.css · 原神（Genshin Impact）UI 设计语言 token
+   用途：把提瓦特式的「羊皮纸 + 金箔 + 七元素」落到网页。
+   规则：本文件是唯一允许出现裸色值的地方；业务 CSS 一律 var(--gs-*)。
+   注意：只蒸馏设计语言，不包含任何游戏素材、字体文件或官方插画。
+   ========================================================================== */
+
+:root {
+  /* ---------- 纸与墨（白昼 · 提瓦特） ---------- */
+  --gs-ivory-0: #fbf7ee;
+  --gs-ivory-1: #f5eddc;
+  --gs-ivory-2: #f0e5d0;
+  --gs-paper: #ece1ca;
+  --gs-paper-deep: #e2d3b6;
+  --gs-ink-900: #2b3147;
+  --gs-ink-800: #3b4257;
+  --gs-ink-700: #4a4f60;
+  --gs-ink-600: #5a5b57;
+  --gs-ink-500: #6f6a5e;
+  --gs-ink-400: #8c8576;
+  --gs-ink-300: #a9a08f;
+  --gs-white: #ffffff;
+
+  /* ---------- 金箔 ---------- */
+  --gs-gold-100: #f8edcf;
+  --gs-gold-200: #efdcb0;
+  --gs-gold-300: #e0c88e;
+  --gs-gold-400: #d3b878;
+  --gs-gold-500: #c6a666;
+  --gs-gold-600: #b1904f;
+  --gs-gold-700: #957640;
+  --gs-gold-800: #74592c;
+  --gs-gold-900: #503c1b;
+
+  /* ---------- 星夜（夜幕 · 深渊） ---------- */
+  --gs-night-950: #0b0e1a;
+  --gs-night-900: #111527;
+  --gs-night-850: #161b2e;
+  --gs-night-800: #1b2138;
+  --gs-night-700: #232a44;
+  --gs-night-600: #2e3654;
+  --gs-night-500: #3d466a;
+  --gs-night-400: #5a6288;
+  --gs-night-300: #8b93b5;
+  --gs-night-100: #e9e2d2;
+
+  /* ---------- 七元素（每屏只用一个作为强调） ---------- */
+  --gs-anemo: #6fc7ae;
+  --gs-anemo-soft: #a9e4d2;
+  --gs-anemo-deep: #2f7f6d;
+  --gs-geo: #e3b45c;
+  --gs-geo-soft: #f5d79c;
+  --gs-geo-deep: #8f6424;
+  --gs-electro: #b58be8;
+  --gs-electro-soft: #d8bcf7;
+  --gs-electro-deep: #6f439f;
+  --gs-dendro: #a3c94a;
+  --gs-dendro-soft: #cde38a;
+  --gs-dendro-deep: #5d7a22;
+  --gs-hydro: #59b7e6;
+  --gs-hydro-soft: #a5ddf5;
+  --gs-hydro-deep: #2478a8;
+  --gs-pyro: #e97a55;
+  --gs-pyro-soft: #f7b49a;
+  --gs-pyro-deep: #a54126;
+  --gs-cryo: #8ed6e4;
+  --gs-cryo-soft: #c7eef5;
+  --gs-cryo-deep: #3e8b9e;
+
+  /* ---------- 品质（3/4/5 星） ---------- */
+  --gs-star-3: #6fa8d8;
+  --gs-star-4: #a88ce0;
+  --gs-star-5: #e0b45c;
+
+  /* ---------- 语义（白昼默认） ---------- */
+  --gs-bg: var(--gs-ivory-0);
+  --gs-bg-deep: var(--gs-paper-deep);
+  --gs-surface: var(--gs-ivory-1);
+  --gs-surface-2: var(--gs-paper);
+  --gs-fg: var(--gs-ink-900);
+  --gs-fg-soft: var(--gs-ink-700);
+  --gs-fg-muted: var(--gs-ink-500);
+  --gs-line: rgba(198, 166, 102, 0.52);
+  --gs-line-soft: rgba(198, 166, 102, 0.28);
+  --gs-gold: var(--gs-gold-500);
+  --gs-gold-light: var(--gs-gold-200);
+  --gs-gold-dark: var(--gs-gold-700);
+  --gs-accent: var(--gs-anemo);
+  --gs-accent-soft: var(--gs-anemo-soft);
+  --gs-accent-deep: var(--gs-anemo-deep);
+  --gs-accent-text: var(--gs-accent-deep);
+  --gs-accent-ink: var(--gs-ink-900);
+  --gs-scrim: rgba(43, 49, 71, 0.08);
+  --gs-scrim-strong: rgba(43, 49, 71, 0.16);
+
+  /* ---------- 渐变（金边、纸面、星海、元素辉光） ---------- */
+  --gs-gold-grad: linear-gradient(
+    135deg,
+    var(--gs-gold-100) 0%,
+    var(--gs-gold-300) 26%,
+    var(--gs-gold-500) 50%,
+    var(--gs-gold-700) 72%,
+    var(--gs-gold-200) 100%
+  );
+  --gs-gold-line: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--gs-gold-500) 18%,
+    var(--gs-gold-200) 50%,
+    var(--gs-gold-500) 82%,
+    transparent 100%
+  );
+  --gs-paper-grad: linear-gradient(180deg, rgba(255, 252, 244, 0.94), rgba(243, 233, 214, 0.92));
+  --gs-paper-wash: radial-gradient(ellipse at 50% 0%, rgba(255, 252, 244, 0.92), transparent 62%),
+    radial-gradient(ellipse at 18% 88%, rgba(211, 184, 120, 0.18), transparent 55%),
+    linear-gradient(180deg, var(--gs-ivory-0), var(--gs-ivory-2));
+  --gs-night-grad: radial-gradient(ellipse at 50% -10%, #2b3459 0%, #171c31 44%, #0b0e1a 100%);
+  --gs-night-panel: linear-gradient(180deg, rgba(35, 42, 68, 0.94), rgba(18, 23, 41, 0.96));
+  --gs-element-glow: radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--gs-accent) 32%, transparent), transparent 68%);
+  --gs-gold-glow: radial-gradient(circle at 50% 40%, rgba(224, 200, 142, 0.24), transparent 70%);
+  --gs-sheen: linear-gradient(105deg, transparent 30%, rgba(255, 250, 232, 0.55) 48%, transparent 62%);
+
+  /* ---------- 字体（不内嵌版权字体；HYWenHei 仅作为本机字体回退） ---------- */
+  --gs-font-display: "Cinzel", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", Georgia, serif;
+  --gs-font-ui: "HYWenHei 85W", "HYWenHei", "汉仪文黑", "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --gs-font-serif-cn: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", serif;
+  --gs-font-mono: "Sora", "Cascadia Code", "JetBrains Mono", Consolas, monospace;
+
+  /* ---------- 字阶（UI 克制，标题有仪式感） ---------- */
+  --gs-fs-micro: 10px;
+  --gs-fs-xs: 11px;
+  --gs-fs-sm: 12px;
+  --gs-fs-body: 14px;
+  --gs-fs-md: 16px;
+  --gs-fs-lg: 20px;
+  --gs-fs-xl: 26px;
+  --gs-fs-2xl: 34px;
+  --gs-fs-3xl: 44px;
+  --gs-fs-display: clamp(48px, 6vw, 88px);
+
+  /* ---------- 间距（4px 基线） ---------- */
+  --gs-s-1: 4px;
+  --gs-s-2: 8px;
+  --gs-s-3: 12px;
+  --gs-s-4: 16px;
+  --gs-s-5: 20px;
+  --gs-s-6: 24px;
+  --gs-s-8: 32px;
+  --gs-s-10: 40px;
+  --gs-s-12: 48px;
+  --gs-s-16: 64px;
+  --gs-s-20: 80px;
+  --gs-s-24: 96px;
+
+  /* ---------- 形状（圆润、金线、双层边） ---------- */
+  --gs-radius-xs: 4px;
+  --gs-radius-sm: 6px;
+  --gs-radius-md: 10px;
+  --gs-radius-lg: 16px;
+  --gs-radius-xl: 22px;
+  --gs-radius-pill: 999px;
+  --gs-border: 1px;
+  --gs-border-heavy: 2px;
+  --gs-shadow-panel: 0 26px 60px -30px rgba(43, 49, 71, 0.42), 0 1px 0 rgba(255, 255, 255, 0.65) inset;
+  --gs-shadow-card: 0 10px 28px -18px rgba(43, 49, 71, 0.38);
+  --gs-shadow-float: 0 18px 44px -22px rgba(43, 49, 71, 0.5);
+  --gs-shadow-gold: 0 0 0 1px var(--gs-gold-500), 0 0 26px -8px rgba(198, 166, 102, 0.6);
+  --gs-shadow-btn: 0 8px 22px -14px rgba(0, 0, 0, 0.55);
+  --gs-shadow-btn-hover: 0 12px 28px -14px rgba(0, 0, 0, 0.6);
+
+  /* ---------- 版式 ---------- */
+  --gs-maxw: 1440px;
+  --gs-content: 1180px;
+  --gs-gutter: clamp(20px, 4vw, 64px);
+  --gs-header-h: 72px;
+
+  /* ---------- 动效 ---------- */
+  --gs-dur-fast: 160ms;
+  --gs-dur-base: 240ms;
+  --gs-dur-slow: 480ms;
+  --gs-dur-hero: 720ms;
+  --gs-dur-rune: 900ms;
+  --gs-ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --gs-ease-silk: cubic-bezier(0.4, 0, 0.2, 1);
+  --gs-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --gs-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* ---------- 元素主题（每屏只启用一个） ---------- */
+[data-gs-element="anemo"] { --gs-accent: var(--gs-anemo); --gs-accent-soft: var(--gs-anemo-soft); --gs-accent-deep: var(--gs-anemo-deep); }
+[data-gs-element="geo"]   { --gs-accent: var(--gs-geo);   --gs-accent-soft: var(--gs-geo-soft);   --gs-accent-deep: var(--gs-geo-deep); }
+[data-gs-element="electro"] { --gs-accent: var(--gs-electro); --gs-accent-soft: var(--gs-electro-soft); --gs-accent-deep: var(--gs-electro-deep); }
+[data-gs-element="dendro"] { --gs-accent: var(--gs-dendro); --gs-accent-soft: var(--gs-dendro-soft); --gs-accent-deep: var(--gs-dendro-deep); }
+[data-gs-element="hydro"] { --gs-accent: var(--gs-hydro); --gs-accent-soft: var(--gs-hydro-soft); --gs-accent-deep: var(--gs-hydro-deep); }
+[data-gs-element="pyro"]  { --gs-accent: var(--gs-pyro);  --gs-accent-soft: var(--gs-pyro-soft);  --gs-accent-deep: var(--gs-pyro-deep); }
+[data-gs-element="cryo"]  { --gs-accent: var(--gs-cryo);  --gs-accent-soft: var(--gs-cryo-soft);  --gs-accent-deep: var(--gs-cryo-deep); }
+
+/* ---------- 夜幕 · 深渊 ---------- */
+[data-gs-mode="night"] {
+  --gs-bg: var(--gs-night-950);
+  --gs-bg-deep: var(--gs-night-900);
+  --gs-surface: var(--gs-night-800);
+  --gs-surface-2: var(--gs-night-700);
+  --gs-fg: var(--gs-night-100);
+  --gs-fg-soft: #d7d0c2;
+  --gs-fg-muted: var(--gs-night-300);
+  --gs-line: rgba(224, 200, 142, 0.34);
+  --gs-line-soft: rgba(224, 200, 142, 0.18);
+  --gs-gold: var(--gs-gold-300);
+  --gs-gold-light: var(--gs-gold-100);
+  --gs-gold-dark: var(--gs-gold-500);
+  --gs-accent-text: var(--gs-accent-soft);
+  --gs-accent-ink: var(--gs-night-950);
+  --gs-scrim: rgba(233, 226, 210, 0.08);
+  --gs-scrim-strong: rgba(233, 226, 210, 0.16);
+  --gs-paper-grad: var(--gs-night-panel);
+  --gs-paper-wash: var(--gs-night-grad);
+  --gs-shadow-panel: 0 30px 70px -34px rgba(0, 0, 0, 0.8), 0 1px 0 rgba(255, 255, 255, 0.06) inset;
+  --gs-shadow-card: 0 12px 30px -18px rgba(0, 0, 0, 0.72);
+  --gs-shadow-float: 0 20px 50px -22px rgba(0, 0, 0, 0.8);
+  --gs-shadow-gold: 0 0 0 1px rgba(224, 200, 142, 0.55), 0 0 30px -10px rgba(224, 200, 142, 0.42);
+}
+
+/* ---------- 品质边框 ---------- */
+[data-gs-rarity="3"] { --gs-rarity: var(--gs-star-3); }
+[data-gs-rarity="4"] { --gs-rarity: var(--gs-star-4); }
+[data-gs-rarity="5"] { --gs-rarity: var(--gs-star-5); }
+
+/* ---------- 基础重置 ---------- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--gs-bg);
+  color: var(--gs-fg);
+  font-family: var(--gs-font-ui);
+  font-size: var(--gs-fs-body);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+button { font: inherit; }
+::selection { background: var(--gs-accent-soft); color: var(--gs-accent-ink); }
+
+:focus-visible {
+  outline: 2px solid var(--gs-accent);
+  outline-offset: 3px;
+}
+
+/* ---------- 通用工具 ---------- */
+.gs-goldtext {
+  background: var(--gs-gold-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gs-rule {
+  height: 1px;
+  border: 0;
+  background: var(--gs-gold-line);
+}
+
+.gs-paper-texture {
+  background-image:
+    radial-gradient(rgba(140, 133, 118, 0.16) 0.5px, transparent 0.8px),
+    repeating-linear-gradient(90deg, rgba(198, 166, 102, 0.05) 0 1px, transparent 1px 7px);
+  background-size: 5px 5px, auto;
+}
+
+/* 角饰：把 4 个角落交给 .gs-corner 的 4 个 span；或给容器加 .gs-corners */
+.gs-corners { position: relative; }
+.gs-corners > .gs-corner {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  pointer-events: none;
+  background: url("textures/gold-corner.svg") center / contain no-repeat;
+  opacity: 0.9;
+}
+.gs-corners > .gs-corner--tl { top: 5px; left: 5px; }
+.gs-corners > .gs-corner--tr { top: 5px; right: 5px; transform: rotate(90deg); }
+.gs-corners > .gs-corner--br { right: 5px; bottom: 5px; transform: rotate(180deg); }
+.gs-corners > .gs-corner--bl { bottom: 5px; left: 5px; transform: rotate(270deg); }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
