@@ -226,7 +226,7 @@ Tab 数量 3–5；超过 5 个用左侧分类栏。
 .gs-choice:hover { border-color: var(--gs-accent); background: color-mix(in srgb, var(--gs-accent) 10%, transparent); }
 ```
 
-- 说话人用衬线 + 元素色；正文 14px/1.9。
+- 说话人用展示字 + 元素色（叙事模式衬线 / 忠实模式 900 黑体）；正文 14px/1.9。
 - 选项 2–3 个；菱形 bullet；不要用 emoji。
 
 ## 11. 星级 / 品质
